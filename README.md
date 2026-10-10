@@ -2,11 +2,11 @@
 
 This is the list of plug-ins and total conversions that shows up in the **Plugins** screen of [NovaSwift](https://github.com/SirStig/NovaSwift). The app downloads `catalog.json` from this repo, keeps a copy for offline use, and installs things straight from the links in it.
 
-There are no plug-in files in this repo. Every entry points at the author's own download.
+There are no plug-in files in this repo. Every entry points at a public download: the author's own, or a community archive such as escape-velocity.games.
 
 ## Rules
 
-- **Link to the original download.** Use the link the author published, not a copy.
+- **Link to a public download.** Prefer the author's own link, or an established community archive. Don't upload a copy somewhere new.
 - **Don't rehost files without the author's permission.** That goes for the plug-in, and for icons and screenshots too. Only put art in `icons/` or `screenshots/` if the author says it's fine. Otherwise link to where it already lives.
 - **No EV Nova base data.** Nothing from the original game's data files, and no art ripped from it. Plug-ins that need the base game are fine; they just can't ship it.
 - **The link has to be a direct file.** `downloadURLs` must open the file itself (`.zip`, `.rez` or `.ndat`). A web page with a download button doesn't count, and neither does anything behind a login, a captcha or a click-through. The app does the download and unpacking on its own, so if it can't, the plug-in can't go in the list. Formats like StuffIt (`.sit`) and BinHex (`.hqx`) aren't supported yet.
