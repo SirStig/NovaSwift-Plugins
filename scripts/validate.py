@@ -88,7 +88,14 @@ def check_image(pid, url):
         err(f"{pid}: image {url} not reachable: {ex}")
         return
     ctype = (r.headers.get("Content-Type") or "").lower()
-    if not ctype.startswith("image/"):
+    if ctype.startswith("image/"):
+        return
+    # GitHub release assets are served as application/octet-stream; accept
+    # them when the bytes themselves are a PNG, JPEG, GIF or WebP.
+    head = r.read(16)
+    magic = (head.startswith(b"\x89PNG") or head.startswith(b"\xff\xd8\xff")
+             or head.startswith(b"GIF8") or (head[:4] == b"RIFF" and head[8:12] == b"WEBP"))
+    if not magic:
         err(f"{pid}: image {url} has content-type '{ctype}', not an image")
 
 
