@@ -5,6 +5,7 @@ download link is a direct file (not an HTML page).
   python3 scripts/validate.py              # schema + ids only (offline)
   python3 scripts/validate.py --urls       # also hit every download URL
   python3 scripts/validate.py --urls --hash  # also download and check sha256
+  python3 scripts/validate.py --urls --pending-release  # skip rehosted entries whose release assets are not uploaded yet
 """
 import hashlib
 import json
@@ -18,6 +19,7 @@ from jsonschema import Draft202012Validator
 ROOT = Path(__file__).resolve().parent.parent
 FILE_EXTS = (".zip", ".rez", ".ndat", ".sit", ".hqx", ".sea", ".bin")  # no .sitx: StuffIt X is unsupported
 errors = []
+RELEASE_PREFIX = "https://github.com/SirStig/NovaSwift-Plugins/releases/download/"
 
 
 def err(msg):
@@ -93,11 +95,15 @@ def check_image(pid, url):
 def main():
     urls = "--urls" in sys.argv
     full = "--hash" in sys.argv
+    pending = "--pending-release" in sys.argv
     doc = json.loads((ROOT / "catalog.json").read_text())
     check_schema(doc)
     check_ids(doc)
     if urls and not errors:
         for p in doc["plugins"]:
+            if pending and p.get("rehosted") and all(x.startswith(RELEASE_PREFIX) for x in p["downloadURLs"]):
+                print(f"skip (release assets pending): {p['id']}")
+                continue
             for u in p["downloadURLs"]:
                 check_download(p["id"], u, p.get("sha256") if u == p["downloadURLs"][0] else None,
                                full and bool(p.get("sha256")))

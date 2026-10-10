@@ -3,48 +3,188 @@
   "$id": "https://raw.githubusercontent.com/SirStig/NovaSwift-Plugins/main/schema/catalog.schema.json",
   "title": "NovaSwift plug-in catalog",
   "type": "object",
-  "required": ["schemaVersion", "plugins"],
+  "required": [
+    "schemaVersion",
+    "plugins"
+  ],
   "additionalProperties": false,
   "properties": {
-    "schemaVersion": { "const": 1 },
-    "updated": { "type": "string", "format": "date" },
-    "plugins": { "type": "array", "items": { "$ref": "#/$defs/plugin" } }
+    "schemaVersion": {
+      "const": 1
+    },
+    "updated": {
+      "type": "string",
+      "format": "date"
+    },
+    "plugins": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/plugin"
+      }
+    }
   },
   "$defs": {
-    "httpsUrl": { "type": "string", "format": "uri", "pattern": "^https://" },
-    "date": { "type": "string", "pattern": "^\\d{4}-\\d{2}-\\d{2}$" },
+    "httpsUrl": {
+      "type": "string",
+      "format": "uri",
+      "pattern": "^https://"
+    },
+    "date": {
+      "type": "string",
+      "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+    },
     "plugin": {
       "type": "object",
-      "required": ["id", "name", "author", "version", "summary", "downloadURLs", "isTotalConversion"],
+      "required": [
+        "id",
+        "name",
+        "author",
+        "version",
+        "summary",
+        "downloadURLs",
+        "isTotalConversion"
+      ],
       "additionalProperties": false,
       "properties": {
         "id": {
           "description": "Stable id. Also the folder name on the player's device. Never change it once published.",
-          "type": "string", "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$", "maxLength": 64
+          "type": "string",
+          "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$",
+          "maxLength": 64
         },
-        "name": { "type": "string", "minLength": 1, "maxLength": 80 },
-        "author": { "type": "string", "minLength": 1, "maxLength": 120 },
-        "version": { "description": "Free text, compared number by number (1.10 is newer than 1.9).", "type": "string", "minLength": 1, "maxLength": 32 },
-        "summary": { "description": "One or two sentences for the card.", "type": "string", "minLength": 1, "maxLength": 240 },
-        "description": { "description": "Longer text, Markdown.", "type": "string" },
-        "tags": { "type": "array", "items": { "type": "string", "minLength": 1 }, "uniqueItems": true },
-        "isTotalConversion": { "type": "boolean" },
-        "iconURL": { "$ref": "#/$defs/httpsUrl" },
-        "screenshotURLs": { "type": "array", "items": { "$ref": "#/$defs/httpsUrl" } },
+        "name": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 80
+        },
+        "author": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 120
+        },
+        "version": {
+          "description": "Free text, compared number by number (1.10 is newer than 1.9).",
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 32
+        },
+        "summary": {
+          "description": "One or two sentences for the card.",
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 240
+        },
+        "description": {
+          "description": "Longer text, Markdown.",
+          "type": "string"
+        },
+        "tags": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          },
+          "uniqueItems": true
+        },
+        "isTotalConversion": {
+          "type": "boolean"
+        },
+        "iconURL": {
+          "$ref": "#/$defs/httpsUrl"
+        },
+        "screenshotURLs": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/httpsUrl"
+          }
+        },
         "downloadURLs": {
           "description": "Direct links to the file itself (a .zip, .rez or .ndat). Not a web page, not behind a login, captcha or click-through. The app downloads and unpacks it with no help from the player. Tried in order.",
-          "type": "array", "minItems": 1, "items": { "$ref": "#/$defs/httpsUrl" }
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "$ref": "#/$defs/httpsUrl"
+          }
         },
-        "sha256": { "description": "Hex SHA-256 of the file at downloadURLs[0].", "type": "string", "pattern": "^[0-9a-fA-F]{64}$" },
-        "sizeBytes": { "type": "integer", "minimum": 1 },
-        "homepageURL": { "$ref": "#/$defs/httpsUrl" },
-        "sourceURL": { "$ref": "#/$defs/httpsUrl" },
-        "license": { "description": "License or redistribution note.", "type": "string" },
-        "minNovaSwiftVersion": { "type": "string" },
-        "dependencies": { "description": "Ids of other plug-ins in this catalog.", "type": "array", "items": { "type": "string" }, "uniqueItems": true },
-        "addedDate": { "$ref": "#/$defs/date" },
-        "updatedDate": { "$ref": "#/$defs/date" },
-        "popularity": { "description": "Higher sorts first under Popular. A download count or a hand-picked rank.", "type": "integer", "minimum": 0 }
+        "sha256": {
+          "description": "Hex SHA-256 of the file at downloadURLs[0].",
+          "type": "string",
+          "pattern": "^[0-9a-fA-F]{64}$"
+        },
+        "sizeBytes": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "homepageURL": {
+          "$ref": "#/$defs/httpsUrl"
+        },
+        "sourceURL": {
+          "$ref": "#/$defs/httpsUrl"
+        },
+        "license": {
+          "description": "License or redistribution note.",
+          "type": "string"
+        },
+        "minNovaSwiftVersion": {
+          "type": "string"
+        },
+        "dependencies": {
+          "description": "Ids of other plug-ins in this catalog.",
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "uniqueItems": true
+        },
+        "addedDate": {
+          "$ref": "#/$defs/date"
+        },
+        "updatedDate": {
+          "$ref": "#/$defs/date"
+        },
+        "popularity": {
+          "description": "Higher sorts first under Popular. A download count or a hand-picked rank.",
+          "type": "integer",
+          "minimum": 0
+        },
+        "rehosted": {
+          "description": "True when the file is hosted by this project (a release asset here) rather than at the author's own link. Only allowed with a permission quote.",
+          "type": "boolean"
+        },
+        "permissionQuote": {
+          "description": "Exact words from the author's readme that allow redistribution.",
+          "type": "string",
+          "minLength": 10
+        },
+        "permissionSource": {
+          "description": "Which file the quote comes from.",
+          "type": "string",
+          "minLength": 1
+        },
+        "originalSource": {
+          "description": "Where the original download came from (archive and file name).",
+          "type": "string",
+          "minLength": 1
+        }
+      },
+      "if": {
+        "properties": {
+          "rehosted": {
+            "const": true
+          }
+        },
+        "required": [
+          "rehosted"
+        ]
+      },
+      "then": {
+        "required": [
+          "permissionQuote",
+          "permissionSource",
+          "originalSource",
+          "sha256",
+          "sizeBytes"
+        ]
       }
     }
   }
