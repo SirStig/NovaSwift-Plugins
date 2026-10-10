@@ -23,7 +23,8 @@
       "minNovaSwiftVersion": "1.0",
       "dependencies": [],
       "addedDate": "2026-10-10",
-      "popularity": 23
+      "popularity": 23,
+      "iconURL": "https://raw.githubusercontent.com/andrews05/evstuff/master/plugins/fhicon.png"
     },
     {
       "id": "femme-fatale",
@@ -46,7 +47,8 @@
       "minNovaSwiftVersion": "1.0",
       "dependencies": [],
       "addedDate": "2026-10-10",
-      "popularity": 22
+      "popularity": 22,
+      "iconURL": "https://raw.githubusercontent.com/andrews05/evstuff/master/plugins/fficon.png"
     },
     {
       "id": "polycon-ev",
@@ -68,7 +70,8 @@
       "minNovaSwiftVersion": "1.0",
       "dependencies": [],
       "addedDate": "2026-10-10",
-      "popularity": 21
+      "popularity": 21,
+      "iconURL": "https://raw.githubusercontent.com/andrews05/evstuff/master/plugins/pcicon-large.png"
     },
     {
       "id": "ev-classic-for-nova",
@@ -91,7 +94,8 @@
       "minNovaSwiftVersion": "1.0",
       "dependencies": [],
       "addedDate": "2026-10-10",
-      "popularity": 20
+      "popularity": 20,
+      "iconURL": "https://raw.githubusercontent.com/andrews05/evstuff/master/plugins/evicon.png"
     },
     {
       "id": "ev-override-for-nova",
@@ -114,7 +118,8 @@
       "minNovaSwiftVersion": "1.0",
       "dependencies": [],
       "addedDate": "2026-10-10",
-      "popularity": 19
+      "popularity": 19,
+      "iconURL": "https://raw.githubusercontent.com/andrews05/evstuff/master/plugins/evoicon.png"
     },
     {
       "id": "rev",
@@ -139,7 +144,8 @@
         "ev-classic-for-nova"
       ],
       "addedDate": "2026-10-10",
-      "popularity": 18
+      "popularity": 18,
+      "iconURL": "https://raw.githubusercontent.com/andrews05/evstuff/master/plugins/revicon.png"
     },
     {
       "id": "cold-fusion-for-nova",
@@ -164,7 +170,8 @@
         "ev-override-for-nova"
       ],
       "addedDate": "2026-10-10",
-      "popularity": 17
+      "popularity": 17,
+      "iconURL": "https://raw.githubusercontent.com/andrews05/evstuff/master/plugins/cficon.png"
     },
     {
       "id": "evo-facelift",
@@ -189,7 +196,8 @@
         "ev-override-for-nova"
       ],
       "addedDate": "2026-10-10",
-      "popularity": 16
+      "popularity": 16,
+      "iconURL": "https://raw.githubusercontent.com/andrews05/evstuff/master/plugins/flicon.png"
     },
     {
       "id": "evo-extras",
@@ -214,7 +222,8 @@
         "ev-override-for-nova"
       ],
       "addedDate": "2026-10-10",
-      "popularity": 15
+      "popularity": 15,
+      "iconURL": "https://raw.githubusercontent.com/andrews05/evstuff/master/plugins/eeicon.png"
     },
     {
       "id": "shields",

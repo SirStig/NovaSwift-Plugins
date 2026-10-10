@@ -79,6 +79,17 @@ def check_download(pid, url, sha256, full):
         err(f"{pid}: sha256 mismatch for {url}: got {h.hexdigest()}")
 
 
+def check_image(pid, url):
+    try:
+        r = open_url(url, ranged=True)
+    except (urllib.error.URLError, TimeoutError) as ex:
+        err(f"{pid}: image {url} not reachable: {ex}")
+        return
+    ctype = (r.headers.get("Content-Type") or "").lower()
+    if not ctype.startswith("image/"):
+        err(f"{pid}: image {url} has content-type '{ctype}', not an image")
+
+
 def main():
     urls = "--urls" in sys.argv
     full = "--hash" in sys.argv
@@ -92,10 +103,7 @@ def main():
                                full and bool(p.get("sha256")))
             for u in [p.get("iconURL"), *p.get("screenshotURLs", [])]:
                 if u:
-                    try:
-                        open_url(u, ranged=True)
-                    except (urllib.error.URLError, TimeoutError) as ex:
-                        err(f"{p['id']}: image {u} not reachable: {ex}")
+                    check_image(p["id"], u)
     print(f"{len(doc.get('plugins', []))} plug-ins checked, {len(errors)} problem(s)")
     sys.exit(1 if errors else 0)
 
