@@ -16,7 +16,7 @@ from pathlib import Path
 from jsonschema import Draft202012Validator
 
 ROOT = Path(__file__).resolve().parent.parent
-FILE_EXTS = (".zip", ".rez", ".ndat")
+FILE_EXTS = (".zip", ".rez", ".ndat", ".sit", ".hqx", ".sea", ".bin")  # no .sitx: StuffIt X is unsupported
 errors = []
 
 

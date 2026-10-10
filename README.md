@@ -9,7 +9,7 @@ There are no plug-in files in this repo. Every entry points at a public download
 - **Link to a public download.** Prefer the author's own link, or an established community archive. Don't upload a copy somewhere new.
 - **Don't rehost files without the author's permission.** That goes for the plug-in, and for icons and screenshots too. Only put art in `icons/` or `screenshots/` if the author says it's fine. Otherwise link to where it already lives.
 - **No EV Nova base data.** Nothing from the original game's data files, and no art ripped from it. Plug-ins that need the base game are fine; they just can't ship it.
-- **The link has to be a direct file.** `downloadURLs` must open the file itself (`.zip`, `.rez` or `.ndat`). A web page with a download button doesn't count, and neither does anything behind a login, a captcha or a click-through. The app does the download and unpacking on its own, so if it can't, the plug-in can't go in the list. Formats like StuffIt (`.sit`) and BinHex (`.hqx`) aren't supported yet.
+- **The link has to be a direct file.** `downloadURLs` must open the file itself (`.zip`, `.rez`, `.ndat`, or classic Mac `.sit`, `.hqx` / `.sit.hqx`, `.sea`, `.bin`). A web page with a download button doesn't count, and neither does anything behind a login, a captcha or a click-through. The app does the download and unpacking on its own, so if it can't, the plug-in can't go in the list. Old StuffIt, BinHex and MacBinary files unpack too (resource forks are kept), but StuffIt X (`.sitx`) is proprietary and is not accepted. HTTPS links only.
 
 ## Adding a plug-in
 
