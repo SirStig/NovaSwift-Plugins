@@ -548,6 +548,360 @@
       ],
       "addedDate": "2026-10-10",
       "popularity": 1
+    },
+    {
+      "id": "colosseum",
+      "name": "Colosseum",
+      "author": "JoshTigerheart",
+      "version": "1.32",
+      "summary": "A combat-focused total conversion built around duels and arena fights.",
+      "description": "A combat-focused total conversion (also known as CTC). Documented on the EVN wiki; the download includes a strategy guide, plug-in reference and optional extras such as ammo-cost removal.",
+      "tags": [
+        "gameplay",
+        "combat"
+      ],
+      "isTotalConversion": true,
+      "downloadURLs": [
+        "https://download.escape-velocity.games/CTC%201.32.zip"
+      ],
+      "sizeBytes": 34584608,
+      "sha256": "72b0aa2e03f7cbc5429ec212d61dc093f638bdd7ba6b19e06d4231e7575f108b",
+      "homepageURL": "https://evnova.miraheze.org/wiki/Colosseum",
+      "license": "Fan-made plug-in. NovaSwift links to the community archive download and does not host or redistribute the file.",
+      "minNovaSwiftVersion": "1.0",
+      "dependencies": [],
+      "addedDate": "2026-10-10",
+      "popularity": 4
+    },
+    {
+      "id": "age-of-the-council",
+      "name": "Age of the Council",
+      "author": "Community (author not stated)",
+      "version": "1.0",
+      "summary": "A total conversion with its own ship graphics, data and titles, plus two optional helper plug-ins.",
+      "description": "A total conversion packaged with its own Nova Files (data, ship graphics and titles) plus the Shield glows and Battles plug-ins.",
+      "tags": [
+        "story"
+      ],
+      "isTotalConversion": true,
+      "downloadURLs": [
+        "https://download.escape-velocity.games/Age%20of%20the%20Council.zip"
+      ],
+      "sizeBytes": 14676693,
+      "sha256": "636162a4f0c899cb460837689c7c5dc20a969e602744a5ff946fb45f9f83fe38",
+      "homepageURL": "https://download.escape-velocity.games/",
+      "license": "Fan-made plug-in. NovaSwift links to the community archive download and does not host or redistribute the file.",
+      "minNovaSwiftVersion": "1.0",
+      "dependencies": [],
+      "addedDate": "2026-10-10",
+      "popularity": 3
+    },
+    {
+      "id": "anathema-saga",
+      "name": "Anathema Saga",
+      "author": "Archon (ported to Nova)",
+      "version": "0.0.2 b0",
+      "summary": "A work-in-progress story plug-in saga set in its own universe, with graphics and data in several parts.",
+      "description": "Early beta of the Anathema saga. Ships as several graphics and data plug-ins; it includes a variant of the data file for use with a Shields plug-in, so only keep the one that matches your setup.",
+      "tags": [
+        "story"
+      ],
+      "isTotalConversion": true,
+      "downloadURLs": [
+        "https://download.escape-velocity.games/Anathema%20Saga%20v0.0.2%20b0.zip"
+      ],
+      "sizeBytes": 31036557,
+      "sha256": "2a0b4db8e8de70ef04a1b3d63299e4fe92f622b495e752395dc883c4afa57591",
+      "homepageURL": "https://download.escape-velocity.games/",
+      "license": "Fan-made plug-in. NovaSwift links to the community archive download and does not host or redistribute the file.",
+      "minNovaSwiftVersion": "1.0",
+      "dependencies": [],
+      "addedDate": "2026-10-10",
+      "popularity": 3
+    },
+    {
+      "id": "arena",
+      "name": "EV Arena",
+      "author": "Joe Rice",
+      "version": "1.0",
+      "summary": "A small arena-fight plug-in ported from an EV Classic original.",
+      "description": "Joe Rice's concept port of an older EV Classic plug-in. The author notes it will probably not work with other plug-ins, and you need to start a new pilot.",
+      "tags": [
+        "gameplay"
+      ],
+      "isTotalConversion": false,
+      "downloadURLs": [
+        "https://download.escape-velocity.games/Arena.zip"
+      ],
+      "sizeBytes": 688341,
+      "sha256": "1c8482225c4b96648eca886b99a516721101522993f6db128f6da6bb9316d20d",
+      "homepageURL": "https://download.escape-velocity.games/",
+      "license": "Fan-made plug-in. NovaSwift links to the community archive download and does not host or redistribute the file.",
+      "minNovaSwiftVersion": "1.0",
+      "dependencies": [],
+      "addedDate": "2026-10-10",
+      "popularity": 2
+    },
+    {
+      "id": "clavius-and-beyond",
+      "name": "Clavius and Beyond",
+      "author": "Community (author not stated)",
+      "version": "3.5.0",
+      "summary": "A large EV Classic expansion running on the Nova engine.",
+      "description": "Clavius and Beyond 3.5.0, a big expansion for the first Escape Velocity, packaged for Nova together with the EV Classic data files. Optional plug-ins for manual flares and an AI rocket hack are included.",
+      "tags": [
+        "story",
+        "classic"
+      ],
+      "isTotalConversion": true,
+      "downloadURLs": [
+        "https://download.escape-velocity.games/Clavius%20and%20Beyond.zip"
+      ],
+      "sizeBytes": 9741040,
+      "sha256": "01594127a79460dfb968eb9b1f94ed12c5863872ce066fb0c9fd51dbd6830d9a",
+      "homepageURL": "https://download.escape-velocity.games/",
+      "license": "Fan-made plug-in. NovaSwift links to the community archive download and does not host or redistribute the file.",
+      "minNovaSwiftVersion": "1.0",
+      "dependencies": [],
+      "addedDate": "2026-10-10",
+      "popularity": 3
+    },
+    {
+      "id": "evo-expanded",
+      "name": "EVO Expanded",
+      "author": "Community (author not stated)",
+      "version": "1.0",
+      "summary": "An expansion for EV Override, packaged to run on the Nova engine.",
+      "description": "A larger Override expansion with extra graphics and data, packaged with the Override data files needed to play it.",
+      "tags": [
+        "story",
+        "classic"
+      ],
+      "isTotalConversion": true,
+      "downloadURLs": [
+        "https://download.escape-velocity.games/EVO%20Expanded.zip"
+      ],
+      "sizeBytes": 12076007,
+      "sha256": "613673e3f97c6cc20c9693b8ee7b59fe5456942b418bb9e4a4750afb6fc7e5c2",
+      "homepageURL": "https://download.escape-velocity.games/",
+      "license": "Fan-made plug-in. NovaSwift links to the community archive download and does not host or redistribute the file.",
+      "minNovaSwiftVersion": "1.0",
+      "dependencies": [],
+      "addedDate": "2026-10-10",
+      "popularity": 2
+    },
+    {
+      "id": "evo-magma",
+      "name": "EVO Magma",
+      "author": "meowx (original); Nova version",
+      "version": "1.0",
+      "summary": "The MAGMA overhaul for EV Override, ported to the Nova engine.",
+      "description": "The MAGMA graphical and content overhaul for EV Override, originally released by meowx, packaged for Nova with Override data plus sounds, a random mission fix and an asteroid plug-in.",
+      "tags": [
+        "graphics",
+        "classic"
+      ],
+      "isTotalConversion": true,
+      "downloadURLs": [
+        "https://download.escape-velocity.games/EVO%20Magma.zip"
+      ],
+      "sizeBytes": 15896674,
+      "sha256": "035262d362f8769108fffa113ec8f727049aa7f8510fefc86f31a209086c19ce",
+      "homepageURL": "https://download.escape-velocity.games/",
+      "license": "Fan-made plug-in. NovaSwift links to the community archive download and does not host or redistribute the file.",
+      "minNovaSwiftVersion": "1.0",
+      "dependencies": [],
+      "addedDate": "2026-10-10",
+      "popularity": 3
+    },
+    {
+      "id": "galactic-scourge",
+      "name": "Galactic Scourge",
+      "author": "Community (author not stated)",
+      "version": "1.0",
+      "summary": "A story plug-in for the first Escape Velocity, run through the Nova engine.",
+      "description": "A Galactic Scourge plug-in for the first Escape Velocity, packaged with the EV Classic data files for Nova. A readme is included.",
+      "tags": [
+        "story",
+        "classic"
+      ],
+      "isTotalConversion": true,
+      "downloadURLs": [
+        "https://download.escape-velocity.games/Galactic%20Scourge.zip"
+      ],
+      "sizeBytes": 12262023,
+      "sha256": "42bf64cba75a202c05c4def0e1490d262cd7651e9917d27a02a3e78b4a63d793",
+      "homepageURL": "https://download.escape-velocity.games/",
+      "license": "Fan-made plug-in. NovaSwift links to the community archive download and does not host or redistribute the file.",
+      "minNovaSwiftVersion": "1.0",
+      "dependencies": [],
+      "addedDate": "2026-10-10",
+      "popularity": 2
+    },
+    {
+      "id": "heart-and-sol",
+      "name": "Heart and Sol",
+      "author": "Community (author not stated)",
+      "version": "Beta",
+      "summary": "A beta total conversion with new ships, outfits, missions and landing art.",
+      "description": "A beta of Heart and Sol, a large total conversion with its own ships, outfits, missions, landing pictures and splash screens. Includes a small Nova asteroid fix and music.",
+      "tags": [
+        "story"
+      ],
+      "isTotalConversion": true,
+      "downloadURLs": [
+        "https://download.escape-velocity.games/Heart%20and%20Sol%20Beta.zip"
+      ],
+      "sizeBytes": 43627144,
+      "sha256": "f973e2f5f553d38a40408772d92002dfea70ebaeb65868a3217a2795aefc823a",
+      "homepageURL": "https://download.escape-velocity.games/",
+      "license": "Fan-made plug-in. NovaSwift links to the community archive download and does not host or redistribute the file.",
+      "minNovaSwiftVersion": "1.0",
+      "dependencies": [],
+      "addedDate": "2026-10-10",
+      "popularity": 3
+    },
+    {
+      "id": "heart-of-darkness",
+      "name": "Heart of Darkness",
+      "author": "Tim Isles (original); ported by Agee 'MacDevil' Springer; packaged by Geek",
+      "version": "1.0",
+      "summary": "The fifth Empire-series total conversion, ported to Nova.",
+      "description": "The fifth installment of Tim Isles's Empire series, ported to the Nova engine by Agee 'MacDevil' Springer and repackaged by Geek. Optional extras: ship variants, Geek's explosion mod and Geek's missions.",
+      "tags": [
+        "story",
+        "classic"
+      ],
+      "isTotalConversion": true,
+      "downloadURLs": [
+        "https://download.escape-velocity.games/Heart%20of%20Darkness.zip"
+      ],
+      "sizeBytes": 30764620,
+      "sha256": "79e494c25a9be76040efcaf9eb4b276ecb03675c3b964e1ef1f7e99ccc49facb",
+      "homepageURL": "https://download.escape-velocity.games/",
+      "license": "Fan-made plug-in. NovaSwift links to the community archive download and does not host or redistribute the file.",
+      "minNovaSwiftVersion": "1.0",
+      "dependencies": [],
+      "addedDate": "2026-10-10",
+      "popularity": 3
+    },
+    {
+      "id": "new-horizons",
+      "name": "New Horizons",
+      "author": "Community (author not stated)",
+      "version": "1.0",
+      "summary": "An EV Classic expansion packaged for the Nova engine.",
+      "description": "New Horizons is an expansion to the first Escape Velocity, packaged with the EV Classic data files and a PDF manual.",
+      "tags": [
+        "story",
+        "classic"
+      ],
+      "isTotalConversion": true,
+      "downloadURLs": [
+        "https://download.escape-velocity.games/New%20Horizons.zip"
+      ],
+      "sizeBytes": 17977109,
+      "sha256": "e2ad36c77e470b64464f712a2c16177adf3717756f057ded88fe954e8e570594",
+      "homepageURL": "https://download.escape-velocity.games/",
+      "license": "Fan-made plug-in. NovaSwift links to the community archive download and does not host or redistribute the file.",
+      "minNovaSwiftVersion": "1.0",
+      "dependencies": [],
+      "addedDate": "2026-10-10",
+      "popularity": 2
+    },
+    {
+      "id": "plugpack",
+      "name": "PlugPack",
+      "author": "Community (author not stated)",
+      "version": "18",
+      "summary": "Ten small plug-ins in one pack: extra outfits, missions, ship variants and more.",
+      "description": "A pack of ten separate plug-ins: Extra Outfits (two parts), New Missions, New Characters, New Targets, Ship Variants, Shield Bubbles, Paint Station, Technical Data and Return to S7evyn. HTML documentation is included.",
+      "tags": [
+        "gameplay",
+        "ships"
+      ],
+      "isTotalConversion": false,
+      "downloadURLs": [
+        "https://download.escape-velocity.games/PlugPackV18.zip"
+      ],
+      "sizeBytes": 13500911,
+      "sha256": "41c6e0f9d091163860b0838d5091ff981be2aa026da82ebc13c73b5d6bc230c3",
+      "homepageURL": "https://download.escape-velocity.games/",
+      "license": "Fan-made plug-in. NovaSwift links to the community archive download and does not host or redistribute the file.",
+      "minNovaSwiftVersion": "1.0",
+      "dependencies": [],
+      "addedDate": "2026-10-10",
+      "popularity": 5
+    },
+    {
+      "id": "secession",
+      "name": "Secession",
+      "author": "Glenn Matthews (original); Nova port by Coraxus",
+      "version": "1.0",
+      "summary": "An EV Override expansion by Glenn Matthews, ported to the Nova engine.",
+      "description": "Secession was an expansion plug-in for EV Override by Glenn Matthews, ported to Nova with very few changes. Read the included original readme before starting.",
+      "tags": [
+        "story",
+        "classic"
+      ],
+      "isTotalConversion": true,
+      "downloadURLs": [
+        "https://download.escape-velocity.games/Secession.zip"
+      ],
+      "sizeBytes": 9863258,
+      "sha256": "1e832f2270db750df249037bb353558af36580b581a29f5e0a8e19bddea05c0c",
+      "homepageURL": "https://download.escape-velocity.games/",
+      "license": "Fan-made plug-in. NovaSwift links to the community archive download and does not host or redistribute the file.",
+      "minNovaSwiftVersion": "1.0",
+      "dependencies": [],
+      "addedDate": "2026-10-10",
+      "popularity": 3
+    },
+    {
+      "id": "voidspace",
+      "name": "Voidspace 5",
+      "author": "Community (author not stated)",
+      "version": "5",
+      "summary": "A total conversion with its own data and music.",
+      "description": "Voidspace 5 is a total conversion packaged with its own Nova Files and a music track.",
+      "tags": [
+        "story"
+      ],
+      "isTotalConversion": true,
+      "downloadURLs": [
+        "https://download.escape-velocity.games/Voidspace%205.zip"
+      ],
+      "sizeBytes": 7754084,
+      "sha256": "7a73ad1edc40f98e9f52cc4aeb523d896b45fb4e463e65c96efd6ecfb4b45539",
+      "homepageURL": "https://download.escape-velocity.games/",
+      "license": "Fan-made plug-in. NovaSwift links to the community archive download and does not host or redistribute the file.",
+      "minNovaSwiftVersion": "1.0",
+      "dependencies": [],
+      "addedDate": "2026-10-10",
+      "popularity": 2
+    },
+    {
+      "id": "aftermath",
+      "name": "Aftermath",
+      "author": "Community (author not stated)",
+      "version": "0.3.5",
+      "summary": "A large work-in-progress total conversion with its own galaxy and several episodes.",
+      "description": "Aftermath v0.3.5, a big in-development total conversion with a core, galaxy and landing-art data set plus separately playable episodes (one at a time). The readme says to keep the Nova Files folder clear of the stock data except the race movies and sounds, and to use EV Nova 1.0.2.",
+      "tags": [
+        "story"
+      ],
+      "isTotalConversion": true,
+      "downloadURLs": [
+        "https://download.escape-velocity.games/extras/Aftermath.zip"
+      ],
+      "sizeBytes": 158210052,
+      "sha256": "7f02ee9fcfc7279c94fa4652ddfc5344aaeec10b3cbe17dabf8bf5550a36739d",
+      "homepageURL": "https://download.escape-velocity.games/",
+      "license": "Fan-made plug-in. NovaSwift links to the community archive download and does not host or redistribute the file.",
+      "minNovaSwiftVersion": "1.0",
+      "dependencies": [],
+      "addedDate": "2026-10-10",
+      "popularity": 2
     }
   ]
 }
