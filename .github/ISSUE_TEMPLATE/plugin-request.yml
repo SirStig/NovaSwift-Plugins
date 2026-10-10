@@ -1,0 +1,50 @@
+name: Plug-in request
+description: Suggest a plug-in or total conversion for the catalog
+title: "Add: "
+labels: ["plugin-request"]
+body:
+  - type: input
+    id: name
+    attributes:
+      label: Plug-in name
+    validations:
+      required: true
+  - type: input
+    id: author
+    attributes:
+      label: Author
+    validations:
+      required: true
+  - type: input
+    id: download
+    attributes:
+      label: Direct download link
+      description: A link that downloads the file itself (.zip, .rez or .ndat). If you only have a web page that has a download button, paste that in "Anything else" instead and we'll see what can be done.
+    validations:
+      required: true
+  - type: input
+    id: homepage
+    attributes:
+      label: Where the author posts it (forum thread, site, repo)
+  - type: dropdown
+    id: type
+    attributes:
+      label: Type
+      options:
+        - Total conversion
+        - Ships
+        - Story / missions
+        - Graphics
+        - Gameplay tweak
+        - Other
+    validations:
+      required: true
+  - type: textarea
+    id: permission
+    attributes:
+      label: Author's stance on sharing
+      description: Anything showing the author is fine with it being listed, and whether we can host the icon or screenshots.
+  - type: textarea
+    id: notes
+    attributes:
+      label: Anything else
