@@ -911,6 +911,690 @@
       "dependencies": [],
       "addedDate": "2026-10-10",
       "popularity": 2
+    },
+    {
+      "id": "evn-cheater",
+      "name": "EVN Cheater",
+      "author": "Vinay Sarpeshkar (Galactic Cheater Services)",
+      "version": "1.0",
+      "summary": "Start as a Cheater and buy a set of overpowered outfits and weapons from the Galactic Cheater Services.",
+      "description": "Lets a new pilot start as either a Trader (default) or a Cheater. Cheaters get access to a system where unbalanced outfits and weapons can be bought, and easy-money missions on the bar boards. Read the included Read Me for the full list.",
+      "tags": [
+        "gameplay"
+      ],
+      "isTotalConversion": false,
+      "downloadURLs": [
+        "https://github.com/SirStig/NovaSwift-Plugins/releases/download/archive-v1/evn-cheater.zip"
+      ],
+      "sha256": "816b9dd8e52a55d54a40e90704101ce2f8126a08c2dfa75d1d085621c0f3bf42",
+      "sizeBytes": 190071,
+      "license": "Redistribution permitted by the author's readme (quoted in permissionQuote).",
+      "dependencies": [],
+      "addedDate": "2026-10-10",
+      "popularity": 6974,
+      "rehosted": true,
+      "permissionQuote": "This plugin may be freely distributed as long as it is not modified in any way and it is accompanied by this file.",
+      "permissionSource": "EVN Cheater - Read Me!.txt (inside the original download)",
+      "originalSource": "Ambrosia Software EV Nova add-ons archive (mirrored at cytheraguides.com/archives/ambrosia_addons/evn/): Cheats/1218_EVNCheater100.sit.hqx, uploaded 2002/04/11",
+      "iconURL": "https://github.com/SirStig/NovaSwift-Plugins/releases/download/archive-v1/evn-cheater-icon.png",
+      "screenshotURLs": [
+        "https://github.com/SirStig/NovaSwift-Plugins/releases/download/archive-v1/evn-cheater-screenshot-1.png",
+        "https://github.com/SirStig/NovaSwift-Plugins/releases/download/archive-v1/evn-cheater-screenshot-2.png",
+        "https://github.com/SirStig/NovaSwift-Plugins/releases/download/archive-v1/evn-cheater-screenshot-3.png"
+      ]
+    },
+    {
+      "id": "aggressor",
+      "name": "Aggressor",
+      "author": "geeknum1 (name not given in readme)",
+      "version": "1.0",
+      "summary": "One new outfit on Viking that makes another ship angry at you, handy for luring escorts away or stopping a target from jumping.",
+      "description": "Adds the Aggressor system outfit, sold on Viking. Uses the highest possible resource IDs, so it should work alongside almost any other plug-in.",
+      "tags": [
+        "gameplay"
+      ],
+      "isTotalConversion": false,
+      "downloadURLs": [
+        "https://github.com/SirStig/NovaSwift-Plugins/releases/download/archive-v1/aggressor.zip"
+      ],
+      "sha256": "bd07029af0def50ea5a066c593e977431810aed298f13304ed4da3a90a724cac",
+      "sizeBytes": 31294,
+      "license": "Redistribution permitted by the author's readme (quoted in permissionQuote).",
+      "dependencies": [],
+      "addedDate": "2026-10-10",
+      "popularity": 2785,
+      "rehosted": true,
+      "permissionQuote": "You may freely distribute this plugin, but please include this readme.",
+      "permissionSource": "Read Me (inside the original download)",
+      "originalSource": "Ambrosia Software EV Nova add-ons archive (mirrored at cytheraguides.com/archives/ambrosia_addons/evn/): Plugins/1454_Aggressor.sit.bin, uploaded 2003/06/13",
+      "iconURL": "https://github.com/SirStig/NovaSwift-Plugins/releases/download/archive-v1/aggressor-icon.png",
+      "screenshotURLs": [
+        "https://github.com/SirStig/NovaSwift-Plugins/releases/download/archive-v1/aggressor-screenshot-1.png"
+      ]
+    },
+    {
+      "id": "hyper-etheric-engine",
+      "name": "Hyper-Etheric Engine",
+      "author": "Gage Stryker",
+      "version": "1.0",
+      "summary": "A multi-jump engine outfit for pilots who are not on the Polaris storyline.",
+      "description": "Adds the Hyper-Etheric Engine outfit, a deliberately less effective and less cheap version of the Polaris multi-jump organ, so non-Polaris pilots can use multi-jump.",
+      "tags": [
+        "gameplay"
+      ],
+      "isTotalConversion": false,
+      "downloadURLs": [
+        "https://github.com/SirStig/NovaSwift-Plugins/releases/download/archive-v1/hyper-etheric-engine.zip"
+      ],
+      "sha256": "e059b99403d3a784b39f9d908d9757617e1c72f9ab3aa682d0fae273803dfe40",
+      "sizeBytes": 74086,
+      "license": "Redistribution permitted by the author's readme (quoted in permissionQuote).",
+      "dependencies": [],
+      "addedDate": "2026-10-10",
+      "popularity": 2974,
+      "rehosted": true,
+      "permissionQuote": "This pulg-in is made freely avaliable to all, provided it is distributed unaltered and with thie README file attatched.",
+      "permissionSource": "README (inside the original download)",
+      "originalSource": "Ambrosia Software EV Nova add-ons archive (mirrored at cytheraguides.com/archives/ambrosia_addons/evn/): Plugins/1709_Hyper-Etheric_Engine_1.0.hqx, uploaded 2003/06/19",
+      "iconURL": "https://github.com/SirStig/NovaSwift-Plugins/releases/download/archive-v1/hyper-etheric-engine-icon.png",
+      "screenshotURLs": [
+        "https://github.com/SirStig/NovaSwift-Plugins/releases/download/archive-v1/hyper-etheric-engine-screenshot-1.png"
+      ]
+    },
+    {
+      "id": "irish-flag",
+      "name": "Irish Flag",
+      "author": "Klepsacovic",
+      "version": "1.0",
+      "summary": "A St. Patrick's Day novelty weapon that paints the Irish flag behind your ship.",
+      "description": "Buy the Irish Flag Gun, then fly fast while firing it off to the side. A concept piece rather than a full plug-in, as its author says.",
+      "tags": [
+        "graphics"
+      ],
+      "isTotalConversion": false,
+      "downloadURLs": [
+        "https://github.com/SirStig/NovaSwift-Plugins/releases/download/archive-v1/irish-flag.zip"
+      ],
+      "sha256": "f6e4bef9a204251f1d6ef155747744b502ef593cba6953c1d9d7ef409f1e989f",
+      "sizeBytes": 659950,
+      "license": "Redistribution permitted by the author's readme (quoted in permissionQuote).",
+      "dependencies": [],
+      "addedDate": "2026-10-10",
+      "popularity": 2414,
+      "rehosted": true,
+      "permissionQuote": "Feel free to distribute this plug-in to anyone you meet.",
+      "permissionSource": "Read Me.txt (inside the original download)",
+      "originalSource": "Ambrosia Software EV Nova add-ons archive (mirrored at cytheraguides.com/archives/ambrosia_addons/evn/): Plugins/1733_Irish_Flag.sit.hqx, uploaded 2005/03/17",
+      "iconURL": "https://github.com/SirStig/NovaSwift-Plugins/releases/download/archive-v1/irish-flag-icon.png",
+      "screenshotURLs": [
+        "https://github.com/SirStig/NovaSwift-Plugins/releases/download/archive-v1/irish-flag-screenshot-1.png",
+        "https://github.com/SirStig/NovaSwift-Plugins/releases/download/archive-v1/irish-flag-screenshot-2.png",
+        "https://github.com/SirStig/NovaSwift-Plugins/releases/download/archive-v1/irish-flag-screenshot-3.png"
+      ]
+    },
+    {
+      "id": "lucrative-privateering",
+      "name": "Lucrative Privateering",
+      "author": "Mario \"MacPatriot\" Colangelo",
+      "version": "1.0.0",
+      "summary": "Five changes that make piracy pay: better escort resale prices, marines that ride in cargo space, new smuggling routes and more.",
+      "description": "Raises escort sale prices, makes the Marine Platoon use cargo space instead of weapon mass, puts disabling radar missiles on two shady Federation planets and adds a new smuggling trade route. Written for the original Nova 1.0.0 data.",
+      "tags": [
+        "gameplay"
+      ],
+      "isTotalConversion": false,
+      "downloadURLs": [
+        "https://github.com/SirStig/NovaSwift-Plugins/releases/download/archive-v1/lucrative-privateering.zip"
+      ],
+      "sha256": "6681bf7632c312a6966d1ed82285da2e50179e21e396e017b2f205ee04e0d5d8",
+      "sizeBytes": 56761,
+      "license": "Redistribution permitted by the author's readme (quoted in permissionQuote).",
+      "dependencies": [],
+      "addedDate": "2026-10-10",
+      "popularity": 3175,
+      "rehosted": true,
+      "permissionQuote": "This plug-in is distributed as Freeware. You may copy it, and distribute it as long as this Read Me file is included in the same folder.",
+      "permissionSource": "Read Me OS 9.txt (inside the original download)",
+      "originalSource": "Ambrosia Software EV Nova add-ons archive (mirrored at cytheraguides.com/archives/ambrosia_addons/evn/): Plugins/1770_lucrativeprivateering95A28.hqx, uploaded 2002/04/15",
+      "iconURL": "https://github.com/SirStig/NovaSwift-Plugins/releases/download/archive-v1/lucrative-privateering-icon.png",
+      "screenshotURLs": [
+        "https://github.com/SirStig/NovaSwift-Plugins/releases/download/archive-v1/lucrative-privateering-screenshot-1.png",
+        "https://github.com/SirStig/NovaSwift-Plugins/releases/download/archive-v1/lucrative-privateering-screenshot-2.png"
+      ]
+    },
+    {
+      "id": "more-bays",
+      "name": "More Bays",
+      "author": "Scott \"Admiral Slathkill II\" Wilson",
+      "version": "1.0",
+      "summary": "Adds docking bays for Starbridges (normal, mod, Rebel and pirate), at a price only the biggest ships can afford.",
+      "description": "Four docks for Starbridges and their outfits. Very heavy and very expensive, so not a cheat. The Optional folder holds replacement shan files for use with ShieldBubbles or the AAC/MD Starbridge Lights plug-ins; most players only need the main file.",
+      "tags": [
+        "ships",
+        "gameplay"
+      ],
+      "isTotalConversion": false,
+      "downloadURLs": [
+        "https://github.com/SirStig/NovaSwift-Plugins/releases/download/archive-v1/more-bays.zip"
+      ],
+      "sha256": "9211929c8e00bf92273fef5ca116706066bc6399a73d792a6e7e367ddc191849",
+      "sizeBytes": 911911,
+      "license": "Redistribution permitted by the author's readme (quoted in permissionQuote).",
+      "dependencies": [],
+      "addedDate": "2026-10-10",
+      "popularity": 3024,
+      "rehosted": true,
+      "permissionQuote": "this plug-in may be distributed freely as long as it is unmodified and this readme is included. No charge may be made for it (other than for the media it is transferred on or call charges to the internet) without the express permission of the author.",
+      "permissionSource": "Readme.txt (inside the original download)",
+      "originalSource": "Ambrosia Software EV Nova add-ons archive (mirrored at cytheraguides.com/archives/ambrosia_addons/evn/): Plugins/1813_More_baysv1.0.sit.hqx, uploaded 2003/08/03",
+      "iconURL": "https://github.com/SirStig/NovaSwift-Plugins/releases/download/archive-v1/more-bays-icon.png",
+      "screenshotURLs": [
+        "https://github.com/SirStig/NovaSwift-Plugins/releases/download/archive-v1/more-bays-screenshot-1.png",
+        "https://github.com/SirStig/NovaSwift-Plugins/releases/download/archive-v1/more-bays-screenshot-2.png",
+        "https://github.com/SirStig/NovaSwift-Plugins/releases/download/archive-v1/more-bays-screenshot-3.png"
+      ]
+    },
+    {
+      "id": "polaris-hypergates",
+      "name": "Polaris Hypergate System",
+      "author": "darth_vader (Ambrosia Webboards)",
+      "version": "1.0",
+      "summary": "Creates a hypergate network in Polaris space, not connected to the Sigma network.",
+      "description": "Regenerates some old gates and adds a few new ones across Polaris space, centred on Kel'ariy. You must have started the Polaris storyline to use it.",
+      "tags": [
+        "gameplay"
+      ],
+      "isTotalConversion": false,
+      "downloadURLs": [
+        "https://github.com/SirStig/NovaSwift-Plugins/releases/download/archive-v1/polaris-hypergates.zip"
+      ],
+      "sha256": "95ea39383748ee064bdb5114a4c9e8da0d7a5274c32f212cee3db6d0c288665a",
+      "sizeBytes": 2248,
+      "license": "Redistribution permitted by the author's readme (quoted in permissionQuote).",
+      "dependencies": [],
+      "addedDate": "2026-10-10",
+      "popularity": 2237,
+      "rehosted": true,
+      "permissionQuote": "You may distribute this plug.  You may not sell this plug for any profits.  You must distribute this readme with this plugin.",
+      "permissionSource": "Readme for Polaris HG plug.rtf (inside the original download)",
+      "originalSource": "Ambrosia Software EV Nova add-ons archive (mirrored at cytheraguides.com/archives/ambrosia_addons/evn/): Plugins/1896_Polaris_Hg_system.zip, uploaded 2005/01/21"
+    },
+    {
+      "id": "star-wars-map",
+      "name": "Star Wars Galaxy Map",
+      "author": "Matthew Dupea",
+      "version": "1.0",
+      "summary": "A 313-system map of the Star Wars galaxy for Star Wars total-conversion builders. Systems only: no planets, ships or missions.",
+      "description": "Made for Star Wars TC developers as a starting map. It contains systems only (no stellars, sprites, pictures or missions).",
+      "tags": [
+        "graphics"
+      ],
+      "isTotalConversion": false,
+      "downloadURLs": [
+        "https://github.com/SirStig/NovaSwift-Plugins/releases/download/archive-v1/star-wars-map.zip"
+      ],
+      "sha256": "05741f27d1689b5104ae63bf6b4a29004d36b067953ac09ecbcfd618cf2b65f1",
+      "sizeBytes": 13199,
+      "license": "Redistribution permitted by the author's readme (quoted in permissionQuote).",
+      "dependencies": [],
+      "addedDate": "2026-10-10",
+      "popularity": 2160,
+      "rehosted": true,
+      "permissionQuote": "The map can be freely distributed/used/altered, provided that this Read-Me is included with the file, and credit is given to me for use of my map.",
+      "permissionSource": "Read-Me.rtf (inside the original download)",
+      "originalSource": "Ambrosia Software EV Nova add-ons archive (mirrored at cytheraguides.com/archives/ambrosia_addons/evn/): Plugins/2087_StarWarsMap_1.0zip.zip, uploaded 2005/10/22"
+    },
+    {
+      "id": "traders-paradise",
+      "name": "Trader's Paradise",
+      "author": "DYNA Systems",
+      "version": "1.0",
+      "summary": "A cheat station in Peflek with seven special outfits: jammers, sensors, jumpers, cloaking devices and fake ID papers.",
+      "description": "Adds a station in the Peflek system selling seven outfits with original graphics. Free for non-commercial use; the author's terms are in the included Read Me.",
+      "tags": [
+        "gameplay"
+      ],
+      "isTotalConversion": false,
+      "downloadURLs": [
+        "https://github.com/SirStig/NovaSwift-Plugins/releases/download/archive-v1/traders-paradise.zip"
+      ],
+      "sha256": "85d1165e52ec33973bcfea77cc7ffceef6320d36b60b0a609d24979085f1538c",
+      "sizeBytes": 232165,
+      "license": "Redistribution permitted by the author's readme (quoted in permissionQuote).",
+      "dependencies": [],
+      "addedDate": "2026-10-10",
+      "popularity": 3978,
+      "rehosted": true,
+      "permissionQuote": "This DYNA Systems product is free for non-commercial use. It must not be sold and it cannot be included with a commercial product without DYNA Systems express written permission. Permission is hereby expressly granted for - FTP site operators - online services - publishers of freeware/shareware compilations on CD-ROM or similar media - operators of both pay and free BBS systems to distribute this EV Nova plug-in without any compensation to DYNA Systems, provided it is distributed unmodified and with all supporting files.",
+      "permissionSource": "Trader's Paradise 1.0 ReadMe (inside the original download)",
+      "originalSource": "Ambrosia Software EV Nova add-ons archive (mirrored at cytheraguides.com/archives/ambrosia_addons/evn/): Plugins/2123_TradersParadise_1.0.sit.hqx, uploaded 2003/04/16",
+      "iconURL": "https://github.com/SirStig/NovaSwift-Plugins/releases/download/archive-v1/traders-paradise-icon.png",
+      "screenshotURLs": [
+        "https://github.com/SirStig/NovaSwift-Plugins/releases/download/archive-v1/traders-paradise-screenshot-1.png",
+        "https://github.com/SirStig/NovaSwift-Plugins/releases/download/archive-v1/traders-paradise-screenshot-2.png",
+        "https://github.com/SirStig/NovaSwift-Plugins/releases/download/archive-v1/traders-paradise-screenshot-3.png"
+      ]
+    },
+    {
+      "id": "spray-cans",
+      "name": "Spray Cans",
+      "author": "Iggyzor",
+      "version": "1.0",
+      "summary": "Buy spray cans from a space station reached through a wormhole in Sol; each can adds a little extra to your ship.",
+      "description": "A short, just-for-fun plug-in by Iggyzor. Licensed under the Apache License 2.0 (full text included).",
+      "tags": [
+        "gameplay"
+      ],
+      "isTotalConversion": false,
+      "downloadURLs": [
+        "https://github.com/SirStig/NovaSwift-Plugins/releases/download/archive-v1/spray-cans.zip"
+      ],
+      "sha256": "db2c737318c8d1ed15b5177a4584c8666ebe566acf23107f1b072737542c6ee5",
+      "sizeBytes": 56142,
+      "license": "Apache-2.0",
+      "dependencies": [],
+      "addedDate": "2026-10-10",
+      "popularity": 1989,
+      "rehosted": true,
+      "permissionQuote": "Copyright (c) 2007 Iggyzor Licensed under the Apache License, Version 2.0 (the \"License\"); you may not use this file except in compliance with the License.",
+      "permissionSource": "ReadMe.rtf (inside the original download)",
+      "originalSource": "Ambrosia Software EV Nova add-ons archive (mirrored at cytheraguides.com/archives/ambrosia_addons/evn/): Plugins/2074_SprayCans.zip, uploaded 2007/11/08",
+      "iconURL": "https://github.com/SirStig/NovaSwift-Plugins/releases/download/archive-v1/spray-cans-icon.png",
+      "screenshotURLs": [
+        "https://github.com/SirStig/NovaSwift-Plugins/releases/download/archive-v1/spray-cans-screenshot-1.png",
+        "https://github.com/SirStig/NovaSwift-Plugins/releases/download/archive-v1/spray-cans-screenshot-2.png",
+        "https://github.com/SirStig/NovaSwift-Plugins/releases/download/archive-v1/spray-cans-screenshot-3.png"
+      ]
+    },
+    {
+      "id": "buyable-ships",
+      "name": "Buyable Ships",
+      "author": "PsyckoSama",
+      "version": "1.0",
+      "summary": "Makes the Hawk, Bulk Freighter, Executive Transport, Luxury Liner and Rebel Escort Carrier buyable and hireable.",
+      "description": "For the EV Classic Mod port to EV Nova: ships that the player is normally restricted from using become available to buy and hire.",
+      "tags": [
+        "ships"
+      ],
+      "isTotalConversion": false,
+      "downloadURLs": [
+        "https://github.com/SirStig/NovaSwift-Plugins/releases/download/archive-v1/buyable-ships.zip"
+      ],
+      "sha256": "683cfe857515d4c2259ad9edfdde3dae9f14a3279a4bb2043cb9b35c63cebb99",
+      "sizeBytes": 2963,
+      "license": "Redistribution permitted by the author's readme (quoted in permissionQuote).",
+      "dependencies": [
+        "ev-classic-for-nova"
+      ],
+      "addedDate": "2026-10-10",
+      "popularity": 1838,
+      "rehosted": true,
+      "permissionQuote": "This Plug-in and any original content are open source and may be used freely with credit.",
+      "permissionSource": "Buyable Ships.txt (inside the original download)",
+      "originalSource": "Ambrosia Software EV Nova add-ons archive (mirrored at cytheraguides.com/archives/ambrosia_addons/evn/): Plugins/3365_Buyable%20Ships.zip, uploaded 2011/02/14"
+    },
+    {
+      "id": "disablo-beam",
+      "name": "Disablo Beam",
+      "author": "Iosephulus",
+      "version": "1.0",
+      "summary": "A beam that stretches across a whole system to disable its target, in a normal version and an optional cheat version.",
+      "description": "An invisible beam that ionizes anything it hits. The main file is the balanced version; the cheat version (free in mass and price) is in the Optional folder, do not enable both at once.",
+      "tags": [
+        "gameplay"
+      ],
+      "isTotalConversion": false,
+      "downloadURLs": [
+        "https://github.com/SirStig/NovaSwift-Plugins/releases/download/archive-v1/disablo-beam.zip"
+      ],
+      "sha256": "a09eed237f3c834a6aa4dc98bd121f27af6a5c332d76da991bc0d703693648f4",
+      "sizeBytes": 63695,
+      "license": "Redistribution permitted by the author's readme (quoted in permissionQuote).",
+      "dependencies": [],
+      "addedDate": "2026-10-10",
+      "popularity": 1934,
+      "rehosted": true,
+      "permissionQuote": "feel free to edit and distribute as long as you include in the descriptions (at outfitter, etc.) that I had the original idea.......",
+      "permissionSource": "ReadMe.txt (inside the original download)",
+      "originalSource": "Ambrosia Software EV Nova add-ons archive (mirrored at cytheraguides.com/archives/ambrosia_addons/evn/): Plugins/3209_DisabloBeam.zip, uploaded 2009/03/02",
+      "iconURL": "https://github.com/SirStig/NovaSwift-Plugins/releases/download/archive-v1/disablo-beam-icon.png",
+      "screenshotURLs": [
+        "https://github.com/SirStig/NovaSwift-Plugins/releases/download/archive-v1/disablo-beam-screenshot-1.png",
+        "https://github.com/SirStig/NovaSwift-Plugins/releases/download/archive-v1/disablo-beam-screenshot-2.png"
+      ]
+    },
+    {
+      "id": "evn-battle-arena",
+      "name": "EV:N Battle Arena",
+      "author": "Kenneth \"GutlessWonder\" Webb",
+      "version": "1.1",
+      "summary": "An arena for testing your piloting against super-ships, with a story, missions and ships; a challenge for after the main strings.",
+      "description": "Provides an Arena where you can test your piloting skill against ships more powerful than anything in Nova. Designed for the post-game.",
+      "tags": [
+        "story",
+        "gameplay"
+      ],
+      "isTotalConversion": false,
+      "downloadURLs": [
+        "https://github.com/SirStig/NovaSwift-Plugins/releases/download/archive-v1/evn-battle-arena.zip"
+      ],
+      "sha256": "e6496f037965063d9e5351c687bf626369eafa04f91a85d2fa9196369c4bd496",
+      "sizeBytes": 3028870,
+      "license": "Redistribution permitted by the author's readme (quoted in permissionQuote).",
+      "dependencies": [],
+      "addedDate": "2026-10-10",
+      "popularity": 3347,
+      "rehosted": true,
+      "permissionQuote": "This plug is to be considered entirely free-ware. While I don't mind you downloading it and then sharing it amongst others, I must respectfully request that this read-me be included and that it be done for free.",
+      "permissionSource": "EVNBattleArenaReadMe.htm (inside the original download)",
+      "originalSource": "Ambrosia Software EV Nova add-ons archive (mirrored at cytheraguides.com/archives/ambrosia_addons/evn/): Plugins/1605_EVN_Battle_Arena.zip, uploaded 2007/12/11",
+      "iconURL": "https://github.com/SirStig/NovaSwift-Plugins/releases/download/archive-v1/evn-battle-arena-icon.png",
+      "screenshotURLs": [
+        "https://github.com/SirStig/NovaSwift-Plugins/releases/download/archive-v1/evn-battle-arena-screenshot-1.png",
+        "https://github.com/SirStig/NovaSwift-Plugins/releases/download/archive-v1/evn-battle-arena-screenshot-2.png",
+        "https://github.com/SirStig/NovaSwift-Plugins/releases/download/archive-v1/evn-battle-arena-screenshot-3.png"
+      ]
+    },
+    {
+      "id": "drones",
+      "name": "Drones",
+      "author": "bjlhct",
+      "version": "1.0",
+      "summary": "A few new weapons and the drone ships for the ones that are bays.",
+      "description": "Adds new drone weapons and ships. Likely incompatible with other plug-ins, but fairly balanced.",
+      "tags": [
+        "ships",
+        "gameplay"
+      ],
+      "isTotalConversion": false,
+      "downloadURLs": [
+        "https://github.com/SirStig/NovaSwift-Plugins/releases/download/archive-v1/drones.zip"
+      ],
+      "sha256": "a2a650c3775bb3453b1b758c01bba352b6ebbf4f7df9317494bb263fc39232f6",
+      "sizeBytes": 1941,
+      "license": "Redistribution permitted by the author's readme (quoted in permissionQuote).",
+      "dependencies": [],
+      "addedDate": "2026-10-10",
+      "popularity": 1878,
+      "rehosted": true,
+      "permissionQuote": "Do whatever you want with it, as long as I get credit somewhere.",
+      "permissionSource": "notes.txt (inside the original download)",
+      "originalSource": "Ambrosia Software EV Nova add-ons archive (mirrored at cytheraguides.com/archives/ambrosia_addons/evn/): Plugins/1569_Drones_.sit.hqx, uploaded 2003/01/11"
+    },
+    {
+      "id": "emalgha-heavy-ships",
+      "name": "Emalgha Heavy Ships",
+      "author": "Coraxus",
+      "version": "1.2",
+      "summary": "Heavy freighter-class ships for the Emalgha, ported from EV Override; includes optional 45-degree sprites.",
+      "description": "Ported from the EV Override plug-in by a third party (see the original source). Adds Emalgha heavy-class supply ships. Not fully debugged on the Nova engine.",
+      "tags": [
+        "ships",
+        "ported"
+      ],
+      "isTotalConversion": false,
+      "downloadURLs": [
+        "https://github.com/SirStig/NovaSwift-Plugins/releases/download/archive-v1/emalgha-heavy-ships.zip"
+      ],
+      "sha256": "795ea7af064a3ff9f75bbe07986b03c67481d188e06ee4dd3d39697600bfc517",
+      "sizeBytes": 378508,
+      "homepageURL": "https://archive.org/details/EVO_Ported",
+      "license": "Redistribution permitted by the author's readme (quoted in permissionQuote).",
+      "dependencies": [
+        "ev-override-for-nova"
+      ],
+      "addedDate": "2026-10-10",
+      "popularity": 0,
+      "rehosted": true,
+      "permissionQuote": "Feel free to distribute this plug-in.",
+      "permissionSource": "READ ME! (inside the original download)",
+      "originalSource": "archive.org item EVO_Ported \"Archive of Ported EVO Plug-ins (REZ)\": EVO/Plugins/E/Emalgha Heavy Ships 1.2.zip",
+      "iconURL": "https://github.com/SirStig/NovaSwift-Plugins/releases/download/archive-v1/emalgha-heavy-ships-icon.png",
+      "screenshotURLs": [
+        "https://github.com/SirStig/NovaSwift-Plugins/releases/download/archive-v1/emalgha-heavy-ships-screenshot-1.png",
+        "https://github.com/SirStig/NovaSwift-Plugins/releases/download/archive-v1/emalgha-heavy-ships-screenshot-2.png"
+      ]
+    },
+    {
+      "id": "strange-asteroid",
+      "name": "Strange Asteroid",
+      "author": "David Arthur",
+      "version": "1.0",
+      "summary": "Fills in the Override \"Strange Asteroid\" mission with its intended Coca-Cola machine graphics.",
+      "description": "Ported from the EV Override plug-in. Replaces the placeholder graphics of the Strange Asteroid mission.",
+      "tags": [
+        "graphics",
+        "ported"
+      ],
+      "isTotalConversion": false,
+      "downloadURLs": [
+        "https://github.com/SirStig/NovaSwift-Plugins/releases/download/archive-v1/strange-asteroid.zip"
+      ],
+      "sha256": "f639bd30469af4999bfdb6c52a81742dc961a1f48ce75f6ee915ef0d83374d13",
+      "sizeBytes": 19151,
+      "homepageURL": "https://archive.org/details/EVO_Ported",
+      "license": "Redistribution permitted by the author's readme (quoted in permissionQuote).",
+      "dependencies": [
+        "ev-override-for-nova"
+      ],
+      "addedDate": "2026-10-10",
+      "popularity": 0,
+      "rehosted": true,
+      "permissionQuote": "The Strange Asteroid plugin for Escape Velocity: Override may be distributed freely in any form, as long as this document accompanies it.",
+      "permissionSource": "Read Me (inside the original download)",
+      "originalSource": "archive.org item EVO_Ported \"Archive of Ported EVO Plug-ins (REZ)\": EVO/Plugins/S/Strange Asteroid.zip",
+      "iconURL": "https://github.com/SirStig/NovaSwift-Plugins/releases/download/archive-v1/strange-asteroid-icon.png",
+      "screenshotURLs": [
+        "https://github.com/SirStig/NovaSwift-Plugins/releases/download/archive-v1/strange-asteroid-screenshot-1.png"
+      ]
+    },
+    {
+      "id": "dilithium",
+      "name": "Dilithium",
+      "author": "Marc A. Richter",
+      "version": "1.0",
+      "summary": "Two phaser weapons, a new power plant and a mission sequence, ported from EV Classic.",
+      "description": "Ported from the EV Classic plug-in by a third party. Adds two phasers and a power supply keyed to combat rating. Not fully debugged on the Nova engine.",
+      "tags": [
+        "gameplay",
+        "ported"
+      ],
+      "isTotalConversion": false,
+      "downloadURLs": [
+        "https://github.com/SirStig/NovaSwift-Plugins/releases/download/archive-v1/dilithium.zip"
+      ],
+      "sha256": "7de59d7201ed64acc65af8b4f5348aa22b429a0c85a434fe6f2d867ee9d92b7e",
+      "sizeBytes": 26001,
+      "homepageURL": "https://archive.org/details/ev_20250301",
+      "license": "Redistribution permitted by the author's readme (quoted in permissionQuote).",
+      "dependencies": [
+        "ev-classic-for-nova"
+      ],
+      "addedDate": "2026-10-10",
+      "popularity": 0,
+      "rehosted": true,
+      "permissionQuote": "This plug-in may be distributed freely.",
+      "permissionSource": "Dilithium Read me (inside the original download)",
+      "originalSource": "archive.org item ev_20250301 \"Archive of Ported EV Classic Plug-ins (REZ)\": Plugins/D/Dilithium.zip"
+    },
+    {
+      "id": "argonaut",
+      "name": "Argonaut",
+      "author": "unnamed (see readme)",
+      "version": "1.0",
+      "summary": "A new ship plus a modified, buyable Hawk fighter, ported from EV Classic.",
+      "description": "Ported from the EV Classic plug-in. Includes a second, smaller plug-in that adds only the Argonaut and the modified Hawk.",
+      "tags": [
+        "ships",
+        "ported"
+      ],
+      "isTotalConversion": false,
+      "downloadURLs": [
+        "https://github.com/SirStig/NovaSwift-Plugins/releases/download/archive-v1/argonaut.zip"
+      ],
+      "sha256": "6cefc3f5e51b8a819028b66acd84413584c105ebacdd11f7083f0c2832be122f",
+      "sizeBytes": 116205,
+      "homepageURL": "https://archive.org/details/ev_20250301",
+      "license": "Redistribution permitted by the author's readme (quoted in permissionQuote).",
+      "dependencies": [
+        "ev-classic-for-nova"
+      ],
+      "addedDate": "2026-10-10",
+      "popularity": 0,
+      "rehosted": true,
+      "permissionQuote": "These plug-ins are my original work and may be freely distributed so long as no fee is charged for their use.",
+      "permissionSource": "Read Me (inside the original download)",
+      "originalSource": "archive.org item ev_20250301 \"Archive of Ported EV Classic Plug-ins (REZ)\": Plugins/A/Argonaut 1.0.zip"
+    },
+    {
+      "id": "raiders",
+      "name": "Raiders",
+      "author": "Jeff Parsons",
+      "version": "1.2",
+      "summary": "A raider faction with new ships, ported from EV Classic.",
+      "description": "Ported from the EV Classic plug-in by a third party. Not fully debugged on the Nova engine.",
+      "tags": [
+        "ships",
+        "ported"
+      ],
+      "isTotalConversion": false,
+      "downloadURLs": [
+        "https://github.com/SirStig/NovaSwift-Plugins/releases/download/archive-v1/raiders.zip"
+      ],
+      "sha256": "fcad056050f611be3da2265cbd183df3d4c3957cbca1f1910f06c05cd5b8c6af",
+      "sizeBytes": 443619,
+      "homepageURL": "https://archive.org/details/ev_20250301",
+      "license": "Redistribution permitted by the author's readme (quoted in permissionQuote).",
+      "dependencies": [
+        "ev-classic-for-nova"
+      ],
+      "addedDate": "2026-10-10",
+      "popularity": 0,
+      "rehosted": true,
+      "permissionQuote": "This product may be distributed freely, so long as this README is included.",
+      "permissionSource": "Raiders.txt (inside the original download)",
+      "originalSource": "archive.org item ev_20250301 \"Archive of Ported EV Classic Plug-ins (REZ)\": Plugins/R/Raiders 1.2.zip",
+      "iconURL": "https://github.com/SirStig/NovaSwift-Plugins/releases/download/archive-v1/raiders-icon.png",
+      "screenshotURLs": [
+        "https://github.com/SirStig/NovaSwift-Plugins/releases/download/archive-v1/raiders-screenshot-1.png"
+      ]
+    },
+    {
+      "id": "missions-impossible",
+      "name": "Missions Impossible",
+      "author": "Savatage",
+      "version": "1.4",
+      "summary": "A set of hard missions with new weapons, ported from EV Classic.",
+      "description": "Ported from the EV Classic plug-in by a third party. Not fully debugged on the Nova engine.",
+      "tags": [
+        "story",
+        "ported"
+      ],
+      "isTotalConversion": false,
+      "downloadURLs": [
+        "https://github.com/SirStig/NovaSwift-Plugins/releases/download/archive-v1/missions-impossible.zip"
+      ],
+      "sha256": "804636441e501b56f5b24af7cf246e5cbb5599eae71e975e5b21761793b9204e",
+      "sizeBytes": 13130,
+      "homepageURL": "https://archive.org/details/ev_20250301",
+      "license": "Redistribution permitted by the author's readme (quoted in permissionQuote).",
+      "dependencies": [
+        "ev-classic-for-nova"
+      ],
+      "addedDate": "2026-10-10",
+      "popularity": 0,
+      "rehosted": true,
+      "permissionQuote": "Feel free to distribute this where ever you see fit. Just make sure you keep this read me file with it.",
+      "permissionSource": "MI1.4 readme (inside the original download)",
+      "originalSource": "archive.org item ev_20250301 \"Archive of Ported EV Classic Plug-ins (REZ)\": Plugins/M/MissionsImpossible14 Folder.zip"
+    },
+    {
+      "id": "game-expander-evc",
+      "name": "Original Game Expander (EV Classic)",
+      "author": "unnamed (see readme)",
+      "version": "2nd update",
+      "summary": "A large scenario expansion adding two new powers (Orion Union and Polaris Alliance), trade routes and many ships, ported from EV Classic.",
+      "description": "Ported from the EV Classic plug-in. A big add-on; starting a new pilot is recommended. Not fully debugged on the Nova engine.",
+      "tags": [
+        "story",
+        "ships",
+        "ported"
+      ],
+      "isTotalConversion": false,
+      "downloadURLs": [
+        "https://github.com/SirStig/NovaSwift-Plugins/releases/download/archive-v1/game-expander-evc.zip"
+      ],
+      "sha256": "de7c3bbf913bf1e6913810b78632ade7d2b673025a8a65601f6880b2c5c6e8aa",
+      "sizeBytes": 2596711,
+      "homepageURL": "https://archive.org/details/ev_20250301",
+      "license": "Redistribution permitted by the author's readme (quoted in permissionQuote).",
+      "dependencies": [
+        "ev-classic-for-nova"
+      ],
+      "addedDate": "2026-10-10",
+      "popularity": 0,
+      "rehosted": true,
+      "permissionQuote": "I claim no rights for this plugin and you may distribute it freely, but please include this readme file if you do.",
+      "permissionSource": "Documentation/Original Game Expander Info (inside the original download)",
+      "originalSource": "archive.org item ev_20250301 \"Archive of Ported EV Classic Plug-ins (REZ)\": Plugins/E/EVGE Update 2.zip"
+    },
+    {
+      "id": "epic-missions",
+      "name": "The Epic Missions",
+      "author": "Howard Lopez",
+      "version": "1.2.2",
+      "summary": "A twelve-mission series (plus two reward missions) ported from EV Classic.",
+      "description": "Ported from the EV Classic plug-in by a third party. Not fully debugged on the Nova engine.",
+      "tags": [
+        "story",
+        "ported"
+      ],
+      "isTotalConversion": false,
+      "downloadURLs": [
+        "https://github.com/SirStig/NovaSwift-Plugins/releases/download/archive-v1/epic-missions.zip"
+      ],
+      "sha256": "417a89c96b43577a089537b4d73dd00911c646314e1eba241b3c1ddd436af70c",
+      "sizeBytes": 37144,
+      "homepageURL": "https://archive.org/details/ev_20250301",
+      "license": "Redistribution permitted by the author's readme (quoted in permissionQuote).",
+      "dependencies": [
+        "ev-classic-for-nova"
+      ],
+      "addedDate": "2026-10-10",
+      "popularity": 0,
+      "rehosted": true,
+      "permissionQuote": "This product may be distributed freely, so long as this README and the file HINTS-DON'T read are included.",
+      "permissionSource": "Epic Missions README (inside the original download)",
+      "originalSource": "archive.org item ev_20250301 \"Archive of Ported EV Classic Plug-ins (REZ)\": Plugins/T/The Epic Missions ƒ.zip"
+    },
+    {
+      "id": "super-pirates",
+      "name": "Super Pirates",
+      "author": "Zacha (Lebpierre)",
+      "version": "1.0",
+      "summary": "Pirate corvettes with proton turrets, extra missiles and heavy rockets, ported from EV Classic.",
+      "description": "Ported from the EV Classic plug-in by a third party.",
+      "tags": [
+        "ships",
+        "ported"
+      ],
+      "isTotalConversion": false,
+      "downloadURLs": [
+        "https://github.com/SirStig/NovaSwift-Plugins/releases/download/archive-v1/super-pirates.zip"
+      ],
+      "sha256": "fd3d9914d07766215a3ed0a01560643757f1543c9b0c2469900a1124f4a1844d",
+      "sizeBytes": 7089,
+      "homepageURL": "https://archive.org/details/ev_20250301",
+      "license": "Redistribution permitted by the author's readme (quoted in permissionQuote).",
+      "dependencies": [
+        "ev-classic-for-nova"
+      ],
+      "addedDate": "2026-10-10",
+      "popularity": 0,
+      "rehosted": true,
+      "permissionQuote": "You are allowed to open, edit and use any part of my plug into another. Just notice me if you release a modified version. However, you can't charge any fee for distributing this work : it is a free-right plug.",
+      "permissionSource": "Don't read me (inside the original download)",
+      "originalSource": "archive.org item ev_20250301 \"Archive of Ported EV Classic Plug-ins (REZ)\": Plugins/S/Super Pirates.zip"
     }
   ]
 }
