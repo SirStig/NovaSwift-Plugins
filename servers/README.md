@@ -62,3 +62,10 @@ Example:
 ```
 
 The full schema is `servers.schema.json`.
+
+
+## Keeping the list current
+
+Servers that can't be reached for about **7 days** are removed from the list by hand. If yours goes down
+for longer (moving hosts, maintenance), just open a new pull request to list it again. Maintainers check
+with `python3 servers/check_servers.py servers/servers.json`.

@@ -1,8 +1,10 @@
 #!/usr/bin/env python3
-"""Probe every server in servers/servers.json with the NovaSwift UDP status query and write status.json.
+"""Maintainer tool: check which listed servers answer right now (run by hand, nothing is scheduled).
 
-The website (sirstig.github.io/NovaSwift servers page) reads status/status.json from the `status` branch.
-Browsers can't send UDP, so this job does it on a schedule. Stdlib only.
+    python3 servers/check_servers.py servers/servers.json [out.json]
+
+Prints each server as online/offline with players and ping. Servers that stay unreachable for about 7 days
+are removed from servers.json by hand (see servers/README.md). Stdlib only.
 Query: "NSQ1" + version byte 0x01 + zero padding to 1200 bytes (anti-amplification format); servers that
 predate it answer only the bare 4-byte "NSQ1", so that is tried as a fallback.
 """
@@ -48,7 +50,8 @@ def main():
     for e in servers:
         out["servers"][e["id"]] = probe(e)
         print(e["id"], out["servers"][e["id"]])
-    json.dump(out, open(sys.argv[2], "w"), indent=2)
+    if len(sys.argv) > 2:
+        json.dump(out, open(sys.argv[2], "w"), indent=2)
 
 if __name__ == "__main__":
     main()
