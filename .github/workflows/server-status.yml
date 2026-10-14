@@ -1,0 +1,35 @@
+name: Server status
+# Probes every listed server (servers/servers.json) over UDP and publishes status.json to the `status` branch
+# for the website. Runs every 30 minutes (GitHub may start scheduled runs late), on servers.json changes, and on demand.
+on:
+  schedule:
+    - cron: "17,47 * * * *"
+  push:
+    branches: [main]
+    paths: ["servers/servers.json"]
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: server-status
+  cancel-in-progress: true
+jobs:
+  probe:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+      - name: Probe servers
+        run: python3 .github/scripts/probe_servers.py servers/servers.json /tmp/status.json
+      - name: Publish to the status branch
+        run: |
+          set -e
+          git config user.name "novaswift-status-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git fetch origin status || true
+          git checkout --orphan status-new
+          git rm -rf --quiet . >/dev/null
+          cp /tmp/status.json status.json
+          git add status.json
+          git commit --quiet -m "Server status $(date -u +%Y-%m-%dT%H:%MZ)"
+          git push --force origin status-new:status
