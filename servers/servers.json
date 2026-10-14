@@ -1,4 +1,21 @@
 {
   "version": 1,
-  "servers": []
+  "servers": [
+    {
+      "id": "novaswift-official-west",
+      "name": "NovaSwift Official West",
+      "host": "35.252.152.24",
+      "port": 53735,
+      "region": "na-west",
+      "description": "The official NovaSwift server. Base game, safe rules — fly together without losing your ship.",
+      "owner": {
+        "name": "SirStig",
+        "contact": "https://github.com/SirStig/NovaSwift/issues"
+      },
+      "rules": "safe",
+      "maxPlayers": 16,
+      "added": "2026-10-14",
+      "website": "https://sirstig.github.io/NovaSwift/"
+    }
+  ]
 }
