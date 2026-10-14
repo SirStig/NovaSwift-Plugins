@@ -1,6 +1,6 @@
 # Public NovaSwift servers
 
-`servers.json` is the directory behind the **Browse > Public** tab of NovaSwift's multiplayer screen. The app downloads it from
+`servers.json` is the directory behind the **Public** tab of NovaSwift's multiplayer screen. The app downloads it from
 
 `https://raw.githubusercontent.com/SirStig/NovaSwift-Plugins/main/servers/servers.json`
 
