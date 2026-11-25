@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updated": "2026-10-10",
+  "updated": "2026-11-24",
   "plugins": [
     {
       "id": "frozen-heart",
@@ -25,7 +25,10 @@
       "dependencies": [],
       "addedDate": "2026-10-10",
       "popularity": 23,
-      "iconURL": "https://raw.githubusercontent.com/andrews05/evstuff/master/plugins/fhicon.png"
+      "iconURL": "https://raw.githubusercontent.com/andrews05/evstuff/master/plugins/fhicon.png",
+      "screenshotURLs": [
+        "https://raw.githubusercontent.com/andrews05/evstuff/master/plugins/fhicon-large.png"
+      ]
     },
     {
       "id": "femme-fatale",
@@ -50,7 +53,10 @@
       "dependencies": [],
       "addedDate": "2026-10-10",
       "popularity": 22,
-      "iconURL": "https://raw.githubusercontent.com/andrews05/evstuff/master/plugins/fficon.png"
+      "iconURL": "https://raw.githubusercontent.com/andrews05/evstuff/master/plugins/fficon.png",
+      "screenshotURLs": [
+        "https://raw.githubusercontent.com/andrews05/evstuff/master/plugins/fficon-large.png"
+      ]
     },
     {
       "id": "polycon-ev",
@@ -74,7 +80,12 @@
       "dependencies": [],
       "addedDate": "2026-10-10",
       "popularity": 21,
-      "iconURL": "https://raw.githubusercontent.com/andrews05/evstuff/master/plugins/pcicon-large.png"
+      "iconURL": "https://raw.githubusercontent.com/andrews05/evstuff/master/plugins/pcicon-large.png",
+      "screenshotURLs": [
+        "https://static.wikitide.net/evnovawiki/a/a4/Polycon_EV_Banner.png",
+        "https://static.wikitide.net/evnovawiki/c/c9/Polycon_Intro_1.png",
+        "https://static.wikitide.net/evnovawiki/4/47/Polycon_Star_Map.png"
+      ]
     },
     {
       "id": "ev-classic-for-nova",
@@ -99,7 +110,10 @@
       "dependencies": [],
       "addedDate": "2026-10-10",
       "popularity": 20,
-      "iconURL": "https://raw.githubusercontent.com/andrews05/evstuff/master/plugins/evicon.png"
+      "iconURL": "https://raw.githubusercontent.com/andrews05/evstuff/master/plugins/evicon.png",
+      "screenshotURLs": [
+        "https://raw.githubusercontent.com/andrews05/evstuff/master/plugins/evicon-large.png"
+      ]
     },
     {
       "id": "ev-override-for-nova",
@@ -124,7 +138,10 @@
       "dependencies": [],
       "addedDate": "2026-10-10",
       "popularity": 19,
-      "iconURL": "https://raw.githubusercontent.com/andrews05/evstuff/master/plugins/evoicon.png"
+      "iconURL": "https://raw.githubusercontent.com/andrews05/evstuff/master/plugins/evoicon.png",
+      "screenshotURLs": [
+        "https://raw.githubusercontent.com/andrews05/evstuff/master/plugins/evoicon-large.png"
+      ]
     },
     {
       "id": "rev",
@@ -178,7 +195,11 @@
       ],
       "addedDate": "2026-10-10",
       "popularity": 17,
-      "iconURL": "https://raw.githubusercontent.com/andrews05/evstuff/master/plugins/cficon.png"
+      "iconURL": "https://raw.githubusercontent.com/andrews05/evstuff/master/plugins/cficon.png",
+      "screenshotURLs": [
+        "https://static.wikitide.net/evnovawiki/8/86/Cold_Fusion_pict_10000.png",
+        "https://static.wikitide.net/evnovawiki/c/c9/Cold_Fusion_pict_10008.png"
+      ]
     },
     {
       "id": "evo-facelift",
@@ -205,7 +226,11 @@
       ],
       "addedDate": "2026-10-10",
       "popularity": 16,
-      "iconURL": "https://raw.githubusercontent.com/andrews05/evstuff/master/plugins/flicon.png"
+      "iconURL": "https://raw.githubusercontent.com/andrews05/evstuff/master/plugins/flicon.png",
+      "screenshotURLs": [
+        "https://static.wikitide.net/evnovawiki/6/6c/Facelift_pict_10000.png",
+        "https://static.wikitide.net/evnovawiki/1/17/Facelift_pict_10000_2.png"
+      ]
     },
     {
       "id": "evo-extras",
@@ -331,7 +356,8 @@
       "minNovaSwiftVersion": "1.0",
       "dependencies": [],
       "addedDate": "2026-10-10",
-      "popularity": 11
+      "popularity": 11,
+      "iconURL": "https://static.wikitide.net/evnovawiki/8/88/ARPIA2_pict_131.png"
     },
     {
       "id": "white-dwarf",
@@ -356,7 +382,11 @@
       "minNovaSwiftVersion": "1.0",
       "dependencies": [],
       "addedDate": "2026-10-10",
-      "popularity": 10
+      "popularity": 10,
+      "screenshotURLs": [
+        "https://static.wikitide.net/evnovawiki/5/5e/White_Dwarf_map.png"
+      ],
+      "sourceURL": "https://github.com/drfiveminusmint/WhiteDwarf"
     },
     {
       "id": "brave-new-void",
@@ -430,7 +460,8 @@
       "minNovaSwiftVersion": "1.0",
       "dependencies": [],
       "addedDate": "2026-10-10",
-      "popularity": 7
+      "popularity": 7,
+      "iconURL": "https://static.wikitide.net/evnovawiki/a/a9/Ashen_Galaxy_Banner.png"
     },
     {
       "id": "brotherhood-of-the-kestrel",
@@ -477,7 +508,11 @@
       "minNovaSwiftVersion": "1.0",
       "dependencies": [],
       "addedDate": "2026-10-10",
-      "popularity": 5
+      "popularity": 5,
+      "iconURL": "https://static.wikitide.net/evnovawiki/5/5b/Acheron_Banner.png",
+      "screenshotURLs": [
+        "https://static.wikitide.net/evnovawiki/9/97/Acheron2.jpg"
+      ]
     },
     {
       "id": "realm-of-prey",
@@ -506,10 +541,10 @@
     {
       "id": "pale",
       "name": "Pale",
-      "author": "EV Nova community",
+      "author": "OverAnalyzerGuy",
       "version": "1.0",
       "summary": "An ambitious expansion to EV Classic.",
-      "description": "Billed by the community as \"an ambitious expansion to EV Classic\" — install on top of EV Classic for Nova. Specific authorship details weren't confirmed while building this catalog entry; treat it as a community-maintained expansion rather than an officially attributed one.",
+      "description": "An ambitious expansion to EV Classic. Install it on top of EV Classic for Nova. OverAnalyzerGuy released this Nova port in 2025; the title screen on the card is from that release post.",
       "tags": [
         "patch",
         "expansion"
@@ -527,7 +562,10 @@
         "ev-classic-for-nova"
       ],
       "addedDate": "2026-10-10",
-      "popularity": 3
+      "popularity": 3,
+      "screenshotURLs": [
+        "https://preview.redd.it/pale-for-ev-nova-1-0-is-available-v0-9818cc07j6xe1.jpg?width=640&crop=smart&auto=webp&s=232bbb8efea6d53a1c03f52b99570fb83307556b"
+      ]
     },
     {
       "id": "reign-of-the-ue",
@@ -603,7 +641,8 @@
       "minNovaSwiftVersion": "1.0",
       "dependencies": [],
       "addedDate": "2026-10-10",
-      "popularity": 4
+      "popularity": 4,
+      "iconURL": "https://static.wikitide.net/evnovawiki/f/fe/Colosseum_Banner.png"
     },
     {
       "id": "age-of-the-council",
@@ -649,7 +688,8 @@
       "minNovaSwiftVersion": "1.0",
       "dependencies": [],
       "addedDate": "2026-10-10",
-      "popularity": 3
+      "popularity": 3,
+      "iconURL": "https://static.wikitide.net/evnovawiki/0/07/Anathemasmall.jpg"
     },
     {
       "id": "arena",
@@ -933,7 +973,11 @@
       "minNovaSwiftVersion": "1.0",
       "dependencies": [],
       "addedDate": "2026-10-10",
-      "popularity": 2
+      "popularity": 2,
+      "iconURL": "https://static.wikitide.net/evnovawiki/9/9e/Aftermath_Logo.png",
+      "screenshotURLs": [
+        "https://static.wikitide.net/evnovawiki/9/99/Aftermath_Intro.png"
+      ]
     },
     {
       "id": "evn-cheater",
@@ -1618,6 +1662,554 @@
       "permissionQuote": "You are allowed to open, edit and use any part of my plug into another. Just notice me if you release a modified version. However, you can't charge any fee for distributing this work : it is a free-right plug.",
       "permissionSource": "Don't read me (inside the original download)",
       "originalSource": "archive.org item ev_20250301 \"Archive of Ported EV Classic Plug-ins (REZ)\": Plugins/S/Super Pirates.zip"
+    },
+    {
+      "id": "full-screen-map-deluxe",
+      "name": "Full Screen Map Deluxe",
+      "author": "EV community",
+      "version": "1.0",
+      "summary": "A larger galaxy map for playing at higher resolutions.",
+      "description": "A map-graphics plug-in from the community download mirror. Drop it in with the scenario you are playing; the original game only looks in the top level of the plug-ins folder.",
+      "tags": [
+        "graphics"
+      ],
+      "isTotalConversion": false,
+      "downloadURLs": [
+        "https://download.escape-velocity.games/extras/Full%20Screen%20Map%20Deluxe%201.0.zip"
+      ],
+      "sha256": "6f18c6c833d351860e427faf8c4b0f2f4b8f363d02775dccab81b13ba8e84ed9",
+      "sizeBytes": 1751418,
+      "homepageURL": "https://download.escape-velocity.games/extras/",
+      "license": "Fan-made plug-in. NovaSwift links to the community archive download and does not host or redistribute the file.",
+      "minNovaSwiftVersion": "1.0",
+      "dependencies": [],
+      "addedDate": "2026-11-24",
+      "popularity": 0
+    },
+    {
+      "id": "geeks-planets",
+      "name": "Geek's Planets",
+      "author": "Geek",
+      "version": "1.0",
+      "summary": "New planet and moon graphics for EV Classic and the scenarios built on it.",
+      "description": "Planet and moon art by Geek, mirrored with the other EV Nova downloads. Made for EV Classic and total conversions based on it, so install it with EV Classic for Nova.",
+      "tags": [
+        "graphics"
+      ],
+      "isTotalConversion": false,
+      "downloadURLs": [
+        "https://download.escape-velocity.games/extras/Geek%27s%20Planets.zip"
+      ],
+      "sha256": "e515c4d38fb12afb56427de9ed608db936ec5a845930977a6598f853c74bb2ef",
+      "sizeBytes": 7757494,
+      "homepageURL": "https://community.ambrosia.garden/d/5-resources",
+      "license": "Fan-made plug-in. NovaSwift links to the community archive download and does not host or redistribute the file.",
+      "minNovaSwiftVersion": "1.0",
+      "dependencies": [
+        "ev-classic-for-nova"
+      ],
+      "addedDate": "2026-11-24",
+      "popularity": 0
+    },
+    {
+      "id": "ktech-outfits",
+      "name": "KTech Outfits",
+      "author": "C. Mubarak (Badanov)",
+      "version": "2004",
+      "summary": "Nova-Kemet's outfits and weapons: cloak, singularity reactor, hybrid laser and more.",
+      "description": "The outfits and weapons half of Badanov's 2004 Nova-Kemet set, mirrored after Tripod shut down (the mirror was posted on r/Escape_Velocity). The freight shuttle, Griffin, Starlord and New Kemet mission pack on the same page are StuffIt-era .rar files, which NovaSwift does not install, so this entry is the outfits zip only. The ships were built to use these outfits.",
+      "tags": [
+        "gameplay",
+        "ships"
+      ],
+      "isTotalConversion": false,
+      "iconURL": "https://nationsims.neocities.org/Games/ev/nk/n-k-masthead.jpg",
+      "screenshotURLs": [
+        "https://nationsims.neocities.org/Games/ev/nk/pics/starlord.jpg",
+        "https://nationsims.neocities.org/Games/ev/nk/pics/griffin.jpg",
+        "https://nationsims.neocities.org/Games/ev/nk/pics/fshuttle.jpg"
+      ],
+      "downloadURLs": [
+        "https://nationsims.neocities.org/Games/ev/nk/plugs/KTech_Outfits.zip"
+      ],
+      "sha256": "06e12e0c749c46d3cf0e94806c59c65bf706d95956da618d9150cffd33b33684",
+      "sizeBytes": 659133,
+      "homepageURL": "https://nationsims.neocities.org/Games/ev/nk/index.html",
+      "license": "Fan-made plug-in. NovaSwift links to the author's mirrored download and does not host or redistribute the file.",
+      "minNovaSwiftVersion": "1.0",
+      "dependencies": [],
+      "addedDate": "2026-11-24",
+      "popularity": 0
+    },
+    {
+      "id": "galactic-insanity",
+      "name": "Galactic Insanity",
+      "author": "EV community",
+      "version": "1.0",
+      "summary": "A large, chaotic EV Classic scenario, ported to the Nova engine.",
+      "description": "SpacePort conversion from the classic Ambrosia archive, published by Geek in 2025 and linked from the Internet Archive. It is not fully debugged on the Nova engine. Install it with the scenario it was written for.",
+      "tags": [
+        "story",
+        "ported"
+      ],
+      "isTotalConversion": false,
+      "downloadURLs": [
+        "https://archive.org/download/ev_20250301/Plugins/G/Galactic%20Insanity%21.zip"
+      ],
+      "sha256": "9751d886d0c1c6efbcbb37231e0afb9d03cb7aff7f17977ebd3b51a2ca0a24b0",
+      "sizeBytes": 7635217,
+      "homepageURL": "https://archive.org/details/ev_20250301",
+      "license": "Fan-made plug-in. NovaSwift links to the Internet Archive file and does not host or redistribute it.",
+      "minNovaSwiftVersion": "1.0",
+      "dependencies": [
+        "ev-classic-for-nova"
+      ],
+      "addedDate": "2026-11-24",
+      "popularity": 0
+    },
+    {
+      "id": "flying-high",
+      "name": "Flying High",
+      "author": "EV community",
+      "version": "2.0",
+      "summary": "The Flying High scenario for EV Classic, ported to the Nova engine.",
+      "description": "SpacePort conversion from the classic Ambrosia archive, published by Geek in 2025 and linked from the Internet Archive. It is not fully debugged on the Nova engine. Install it with the scenario it was written for.",
+      "tags": [
+        "story",
+        "ported"
+      ],
+      "isTotalConversion": false,
+      "downloadURLs": [
+        "https://archive.org/download/ev_20250301/Plugins/F/Flying%20High%202.0.zip"
+      ],
+      "sha256": "d56b99f36cb8a39bf09ca466d4e938a792bcce1bd1da86ea4b1a512e5d3b523a",
+      "sizeBytes": 5588203,
+      "homepageURL": "https://archive.org/details/ev_20250301",
+      "license": "Fan-made plug-in. NovaSwift links to the Internet Archive file and does not host or redistribute it.",
+      "minNovaSwiftVersion": "1.0",
+      "dependencies": [
+        "ev-classic-for-nova"
+      ],
+      "addedDate": "2026-11-24",
+      "popularity": 0
+    },
+    {
+      "id": "elite-frontiers",
+      "name": "Elite Frontiers",
+      "author": "EV community",
+      "version": "1.0",
+      "summary": "An EV Classic frontier scenario, ported to the Nova engine.",
+      "description": "SpacePort conversion from the classic Ambrosia archive, published by Geek in 2025 and linked from the Internet Archive. It is not fully debugged on the Nova engine. Install it with the scenario it was written for.",
+      "tags": [
+        "story",
+        "ported"
+      ],
+      "isTotalConversion": false,
+      "downloadURLs": [
+        "https://archive.org/download/ev_20250301/Plugins/E/Elite%20Frontiers.zip"
+      ],
+      "sha256": "16c1772ff670f8e4ebc7a9a85ae0310f15297d69b7bb95e27af2f474d9755216",
+      "sizeBytes": 5821326,
+      "homepageURL": "https://archive.org/details/ev_20250301",
+      "license": "Fan-made plug-in. NovaSwift links to the Internet Archive file and does not host or redistribute it.",
+      "minNovaSwiftVersion": "1.0",
+      "dependencies": [
+        "ev-classic-for-nova"
+      ],
+      "addedDate": "2026-11-24",
+      "popularity": 0
+    },
+    {
+      "id": "star-wars-ana",
+      "name": "Star Wars: A New Alliance",
+      "author": "Ian Beach and Mark Melaccio",
+      "version": "PPC-1",
+      "summary": "A Star Wars total conversion for the original Escape Velocity, ported to Nova.",
+      "description": "Ian Beach and Mark Melaccio's Star Wars: A New Alliance, one of the early Escape Velocity total conversions. This is Geek's 2025 SpacePort conversion of the PowerPC build. It is not fully debugged on the Nova engine, and it expects EV Classic for Nova.",
+      "tags": [
+        "story",
+        "ported"
+      ],
+      "isTotalConversion": false,
+      "downloadURLs": [
+        "https://archive.org/download/ev_20250301/Plugins/S/Star%20Wars-ANA%20PPC-1.zip"
+      ],
+      "sha256": "74f131b7a46c315f10c774f031c6049560912deae6eec157b7c3582e7736f103",
+      "sizeBytes": 5905585,
+      "homepageURL": "https://archive.org/details/ev_20250301",
+      "license": "Fan-made plug-in. NovaSwift links to the Internet Archive file and does not host or redistribute it.",
+      "minNovaSwiftVersion": "1.0",
+      "dependencies": [
+        "ev-classic-for-nova"
+      ],
+      "addedDate": "2026-11-24",
+      "popularity": 0
+    },
+    {
+      "id": "merchant-world",
+      "name": "Merchant World",
+      "author": "EV community",
+      "version": "2.0.0",
+      "summary": "A trading-focused EV Classic scenario, ported to the Nova engine.",
+      "description": "SpacePort conversion from the classic Ambrosia archive, published by Geek in 2025 and linked from the Internet Archive. It is not fully debugged on the Nova engine. Install it with the scenario it was written for.",
+      "tags": [
+        "story",
+        "ported"
+      ],
+      "isTotalConversion": false,
+      "downloadURLs": [
+        "https://archive.org/download/ev_20250301/Plugins/M/Merchant%20World%202.0.0.zip"
+      ],
+      "sha256": "546237e4f55ed2c42dcd7368643caf633573f0a9a06b3a03c9fdd81de97584cd",
+      "sizeBytes": 3870890,
+      "homepageURL": "https://archive.org/details/ev_20250301",
+      "license": "Fan-made plug-in. NovaSwift links to the Internet Archive file and does not host or redistribute it.",
+      "minNovaSwiftVersion": "1.0",
+      "dependencies": [
+        "ev-classic-for-nova"
+      ],
+      "addedDate": "2026-11-24",
+      "popularity": 0
+    },
+    {
+      "id": "cygnus-alliance",
+      "name": "The Cygnus Alliance",
+      "author": "EV community",
+      "version": "1.0.0",
+      "summary": "The Cygnus Alliance scenario for EV Classic, ported to the Nova engine.",
+      "description": "SpacePort conversion from the classic Ambrosia archive, published by Geek in 2025 and linked from the Internet Archive. It is not fully debugged on the Nova engine. Install it with the scenario it was written for.",
+      "tags": [
+        "story",
+        "ported"
+      ],
+      "isTotalConversion": false,
+      "downloadURLs": [
+        "https://archive.org/download/ev_20250301/Plugins/T/The%20Cygnus%20Alliance%20v1.0.0.zip"
+      ],
+      "sha256": "a323822079edd72b4743309c6fc11f46688ea0219caa79431078ddb11c866d98",
+      "sizeBytes": 3413018,
+      "homepageURL": "https://archive.org/details/ev_20250301",
+      "license": "Fan-made plug-in. NovaSwift links to the Internet Archive file and does not host or redistribute it.",
+      "minNovaSwiftVersion": "1.0",
+      "dependencies": [
+        "ev-classic-for-nova"
+      ],
+      "addedDate": "2026-11-24",
+      "popularity": 0
+    },
+    {
+      "id": "mugabi-and-destiny",
+      "name": "Mugabi and Destiny",
+      "author": "EV community",
+      "version": "1.0",
+      "summary": "A story scenario for EV Classic, ported to the Nova engine.",
+      "description": "SpacePort conversion from the classic Ambrosia archive, published by Geek in 2025 and linked from the Internet Archive. It is not fully debugged on the Nova engine. Install it with the scenario it was written for.",
+      "tags": [
+        "story",
+        "ported"
+      ],
+      "isTotalConversion": false,
+      "downloadURLs": [
+        "https://archive.org/download/ev_20250301/Plugins/M/Mugabi%20and%20Destiny.zip"
+      ],
+      "sha256": "52f2cd6aa188a3a0bc849f476339495954b4a368fbf27a9a4003030bd24968eb",
+      "sizeBytes": 6980507,
+      "homepageURL": "https://archive.org/details/ev_20250301",
+      "license": "Fan-made plug-in. NovaSwift links to the Internet Archive file and does not host or redistribute it.",
+      "minNovaSwiftVersion": "1.0",
+      "dependencies": [
+        "ev-classic-for-nova"
+      ],
+      "addedDate": "2026-11-24",
+      "popularity": 0
+    },
+    {
+      "id": "great-war",
+      "name": "Great War",
+      "author": "EV community",
+      "version": "2.1",
+      "summary": "A war scenario for EV Classic, ported to the Nova engine.",
+      "description": "SpacePort conversion from the classic Ambrosia archive, published by Geek in 2025 and linked from the Internet Archive. It is not fully debugged on the Nova engine. Install it with the scenario it was written for.",
+      "tags": [
+        "story",
+        "ported"
+      ],
+      "isTotalConversion": false,
+      "downloadURLs": [
+        "https://archive.org/download/ev_20250301/Plugins/G/Great%20War%202.1.zip"
+      ],
+      "sha256": "a94f33d23bc4fd5a527881ff8aeab59b644ad6a823644b0614855a385bdde6e8",
+      "sizeBytes": 2766139,
+      "homepageURL": "https://archive.org/details/ev_20250301",
+      "license": "Fan-made plug-in. NovaSwift links to the Internet Archive file and does not host or redistribute it.",
+      "minNovaSwiftVersion": "1.0",
+      "dependencies": [
+        "ev-classic-for-nova"
+      ],
+      "addedDate": "2026-11-24",
+      "popularity": 0
+    },
+    {
+      "id": "destroyer-wars",
+      "name": "Destroyer Wars",
+      "author": "EV community",
+      "version": "4",
+      "summary": "A capital-ship war scenario for EV Classic, ported to the Nova engine.",
+      "description": "SpacePort conversion from the classic Ambrosia archive, published by Geek in 2025 and linked from the Internet Archive. It is not fully debugged on the Nova engine. Install it with the scenario it was written for. This is the fourth release in the Destroyer Wars set.",
+      "tags": [
+        "story",
+        "ships",
+        "ported"
+      ],
+      "isTotalConversion": false,
+      "downloadURLs": [
+        "https://archive.org/download/ev_20250301/Plugins/D/DestroyerWars-4.zip"
+      ],
+      "sha256": "e98eef0d5aeb8f1ed03505bd2939c851cc26ae491823022a2a8a5dc6354bfbc1",
+      "sizeBytes": 2098461,
+      "homepageURL": "https://archive.org/details/ev_20250301",
+      "license": "Fan-made plug-in. NovaSwift links to the Internet Archive file and does not host or redistribute it.",
+      "minNovaSwiftVersion": "1.0",
+      "dependencies": [
+        "ev-classic-for-nova"
+      ],
+      "addedDate": "2026-11-24",
+      "popularity": 0
+    },
+    {
+      "id": "battle-of-the-milky-way",
+      "name": "Battle of the Milky Way",
+      "author": "EV community",
+      "version": "1.0",
+      "summary": "A battle scenario for EV Classic, ported to the Nova engine.",
+      "description": "SpacePort conversion from the classic Ambrosia archive, published by Geek in 2025 and linked from the Internet Archive. It is not fully debugged on the Nova engine. Install it with the scenario it was written for.",
+      "tags": [
+        "story",
+        "ported"
+      ],
+      "isTotalConversion": false,
+      "downloadURLs": [
+        "https://archive.org/download/ev_20250301/Plugins/B/Battle%20Of%20Milky%20Way.zip"
+      ],
+      "sha256": "a5e64567e28d752dd10b660f79478b65af27c3122763b3d926ee21fe341155ca",
+      "sizeBytes": 1897492,
+      "homepageURL": "https://archive.org/details/ev_20250301",
+      "license": "Fan-made plug-in. NovaSwift links to the Internet Archive file and does not host or redistribute it.",
+      "minNovaSwiftVersion": "1.0",
+      "dependencies": [
+        "ev-classic-for-nova"
+      ],
+      "addedDate": "2026-11-24",
+      "popularity": 0
+    },
+    {
+      "id": "stev",
+      "name": "STEV",
+      "author": "EV community",
+      "version": "1.0",
+      "summary": "A Star Trek scenario for the original Escape Velocity, ported to Nova.",
+      "description": "SpacePort conversion from the classic Ambrosia archive, published by Geek in 2025 and linked from the Internet Archive. It is not fully debugged on the Nova engine. Install it with the scenario it was written for.",
+      "tags": [
+        "story",
+        "ported"
+      ],
+      "isTotalConversion": false,
+      "downloadURLs": [
+        "https://archive.org/download/ev_20250301/Plugins/S/STEV.zip"
+      ],
+      "sha256": "c88723184e4993f777bbf772586a5bc10c1cbae53d5903f88131f8098f7c3481",
+      "sizeBytes": 5279926,
+      "homepageURL": "https://archive.org/details/ev_20250301",
+      "license": "Fan-made plug-in. NovaSwift links to the Internet Archive file and does not host or redistribute it.",
+      "minNovaSwiftVersion": "1.0",
+      "dependencies": [
+        "ev-classic-for-nova"
+      ],
+      "addedDate": "2026-11-24",
+      "popularity": 0
+    },
+    {
+      "id": "st-the-plugin",
+      "name": "ST, The Plug-In",
+      "author": "EV community",
+      "version": "0.55b1",
+      "summary": "Another Star Trek plug-in for EV Classic, in beta, ported to Nova.",
+      "description": "SpacePort conversion from the classic Ambrosia archive, published by Geek in 2025 and linked from the Internet Archive. It is not fully debugged on the Nova engine. Install it with the scenario it was written for. This copy is the 0.55 beta.",
+      "tags": [
+        "story",
+        "ported"
+      ],
+      "isTotalConversion": false,
+      "downloadURLs": [
+        "https://archive.org/download/ev_20250301/Plugins/S/ST%2C%20The%20Plug%20In%20.55b1.zip"
+      ],
+      "sha256": "cb283210648c083ce44c7bf329b4a40b66720ed93be15447646c7546785767df",
+      "sizeBytes": 8046385,
+      "homepageURL": "https://archive.org/details/ev_20250301",
+      "license": "Fan-made plug-in. NovaSwift links to the Internet Archive file and does not host or redistribute it.",
+      "minNovaSwiftVersion": "1.0",
+      "dependencies": [
+        "ev-classic-for-nova"
+      ],
+      "addedDate": "2026-11-24",
+      "popularity": 0
+    },
+    {
+      "id": "galaxys-edge",
+      "name": "Galaxy's Edge",
+      "author": "EV community",
+      "version": "1.0",
+      "summary": "A large EV Override scenario, ported to the Nova engine.",
+      "description": "SpacePort conversion from the EV Override add-on archive, published by Geek in 2025 and linked from the Internet Archive. It is not fully debugged on the Nova engine. Install it with EV Override for Nova.",
+      "tags": [
+        "story",
+        "ported"
+      ],
+      "isTotalConversion": false,
+      "downloadURLs": [
+        "https://archive.org/download/EVO_Ported/EVO/Plugins/G/Galaxy%27s%20Edge.zip"
+      ],
+      "sha256": "39d86019e290f56ba98ee696d81054ebf8484cb9578ae15c41365781ffcd3f82",
+      "sizeBytes": 11939457,
+      "homepageURL": "https://archive.org/details/EVO_Ported",
+      "license": "Fan-made plug-in. NovaSwift links to the Internet Archive file and does not host or redistribute it.",
+      "minNovaSwiftVersion": "1.0",
+      "dependencies": [
+        "ev-override-for-nova"
+      ],
+      "addedDate": "2026-11-24",
+      "popularity": 0
+    },
+    {
+      "id": "kens-mega-plug",
+      "name": "Ken's Mega Plug",
+      "author": "Ken",
+      "version": "Voinian War",
+      "summary": "Ken's Mega Plug for EV Override, the Voinian War release, ported to Nova.",
+      "description": "Ken's Override expansion, the Voinian War release. SpacePort conversion from the EV Override add-on archive, published by Geek in 2025 and linked from the Internet Archive. It is not fully debugged on the Nova engine. Install it with EV Override for Nova.",
+      "tags": [
+        "story",
+        "ships",
+        "ported"
+      ],
+      "isTotalConversion": false,
+      "downloadURLs": [
+        "https://archive.org/download/EVO_Ported/EVO/Plugins/K/Ken%27s%20Mega%20Plug%20-%20Voinian%20War.zip"
+      ],
+      "sha256": "f32c0b84479aaa875e79499611dcf5bf0d2f82122ed383f4b47967e8363a9a21",
+      "sizeBytes": 6410752,
+      "homepageURL": "https://archive.org/details/EVO_Ported",
+      "license": "Fan-made plug-in. NovaSwift links to the Internet Archive file and does not host or redistribute it.",
+      "minNovaSwiftVersion": "1.0",
+      "dependencies": [
+        "ev-override-for-nova"
+      ],
+      "addedDate": "2026-11-24",
+      "popularity": 0
+    },
+    {
+      "id": "babylon-5-evo",
+      "name": "Babylon 5 for Override",
+      "author": "EV community",
+      "version": "2.6",
+      "summary": "A Babylon 5 plug-in for EV Override, ported to the Nova engine.",
+      "description": "SpacePort conversion from the EV Override add-on archive, published by Geek in 2025 and linked from the Internet Archive. It is not fully debugged on the Nova engine. Install it with EV Override for Nova.",
+      "tags": [
+        "story",
+        "ported"
+      ],
+      "isTotalConversion": false,
+      "downloadURLs": [
+        "https://archive.org/download/EVO_Ported/EVO/Plugins/B/B5%20Plug-in%20for%20EVO%20v2.6%20%C6%92.zip"
+      ],
+      "sha256": "e07c05f52ba1d4990e1b383c1e1882d2e3de99182217690e6145fcfefd0e1a52",
+      "sizeBytes": 4500413,
+      "homepageURL": "https://archive.org/details/EVO_Ported",
+      "license": "Fan-made plug-in. NovaSwift links to the Internet Archive file and does not host or redistribute it.",
+      "minNovaSwiftVersion": "1.0",
+      "dependencies": [
+        "ev-override-for-nova"
+      ],
+      "addedDate": "2026-11-24",
+      "popularity": 0
+    },
+    {
+      "id": "xtreme-tech",
+      "name": "Xtreme Tech",
+      "author": "EV community",
+      "version": "1.1",
+      "summary": "An outfit and technology pack for EV Override, ported to Nova.",
+      "description": "SpacePort conversion from the EV Override add-on archive, published by Geek in 2025 and linked from the Internet Archive. It is not fully debugged on the Nova engine. Install it with EV Override for Nova.",
+      "tags": [
+        "gameplay",
+        "ported"
+      ],
+      "isTotalConversion": false,
+      "downloadURLs": [
+        "https://archive.org/download/EVO_Ported/EVO/Plugins/X/Xtreme%20Tech%201.1.zip"
+      ],
+      "sha256": "14b1a9c3279299059511c38005d25ae63f60df01ec759e6b96e9a48e451b6fda",
+      "sizeBytes": 3761316,
+      "homepageURL": "https://archive.org/details/EVO_Ported",
+      "license": "Fan-made plug-in. NovaSwift links to the Internet Archive file and does not host or redistribute it.",
+      "minNovaSwiftVersion": "1.0",
+      "dependencies": [
+        "ev-override-for-nova"
+      ],
+      "addedDate": "2026-11-24",
+      "popularity": 0
+    },
+    {
+      "id": "escape-velocity-tx",
+      "name": "Escape Velocity TX",
+      "author": "EV community",
+      "version": "1.0",
+      "summary": "The Escape Velocity TX scenario for Override, ported to the Nova engine.",
+      "description": "SpacePort conversion from the EV Override add-on archive, published by Geek in 2025 and linked from the Internet Archive. It is not fully debugged on the Nova engine. Install it with EV Override for Nova.",
+      "tags": [
+        "story",
+        "ported"
+      ],
+      "isTotalConversion": false,
+      "downloadURLs": [
+        "https://archive.org/download/EVO_Ported/EVO/Plugins/E/Escape%20Velocity%20TX.zip"
+      ],
+      "sha256": "65fa8c911ebd18a0c6c3a4dae176fa257a86c8cd52b83b82a32b0946cb55a606",
+      "sizeBytes": 8333600,
+      "homepageURL": "https://archive.org/details/EVO_Ported",
+      "license": "Fan-made plug-in. NovaSwift links to the Internet Archive file and does not host or redistribute it.",
+      "minNovaSwiftVersion": "1.0",
+      "dependencies": [
+        "ev-override-for-nova"
+      ],
+      "addedDate": "2026-11-24",
+      "popularity": 0
+    },
+    {
+      "id": "ue-ship-expander",
+      "name": "UE Ship and Outfit Expander",
+      "author": "EV community",
+      "version": "1.0",
+      "summary": "Extra United Earth ships and outfits for EV Override, ported to Nova.",
+      "description": "SpacePort conversion from the EV Override add-on archive, published by Geek in 2025 and linked from the Internet Archive. It is not fully debugged on the Nova engine. Install it with EV Override for Nova.",
+      "tags": [
+        "ships",
+        "ported"
+      ],
+      "isTotalConversion": false,
+      "downloadURLs": [
+        "https://archive.org/download/EVO_Ported/EVO/Plugins/U/UE%20Ship%20and%20Outfit%20Expander.zip"
+      ],
+      "sha256": "8d705112b8e19c05c281165ec32c0ca2e46f7b00fb6cbafbb0fb034b0710d4cb",
+      "sizeBytes": 2311500,
+      "homepageURL": "https://archive.org/details/EVO_Ported",
+      "license": "Fan-made plug-in. NovaSwift links to the Internet Archive file and does not host or redistribute it.",
+      "minNovaSwiftVersion": "1.0",
+      "dependencies": [
+        "ev-override-for-nova"
+      ],
+      "addedDate": "2026-11-24",
+      "popularity": 0
     }
   ]
 }
